@@ -1,8 +1,13 @@
+#include <unistd.h>
+#include <stdio.h>
+#include "environment.h"
+#include "file_processing.h"
 
 typedef enum{ false = 0 , true = 1 } bool ;
 
 void start_shell(bool read_from_file);
-void shell_loop(bool input_from_file);
+void shell_loop(bool input_from_file,FILE* file_pointer);
+char* path;
 
 int main(int argc, char *argv[])
 {
@@ -12,6 +17,7 @@ int main(int argc, char *argv[])
     // any other early configuration should be here
 
     if( argc > 1 ){
+		path = argv[1];
         start(true);
     }
     else{
@@ -23,30 +29,35 @@ int main(int argc, char *argv[])
 
 void start(bool read_from_file)
 {
-	cd(""); // let shell starts from home
+    char* home_arg[] = {"cd","~","\0"};
+	execv("/bin/cd",home_arg); // let shell starts from home
 
 	if(read_from_file){
+		FILE* fp = open_commands_batch_file(path);
 		// file processing functions should be called from here
-
-		shell_loop(true);
+		shell_loop(true,fp);
 	}
 	else{
-		shell_loop(false);
+		shell_loop(false,NULL);
 	}
 }
 
-void shell_loop(bool input_from_file)
+void shell_loop(bool input_from_file,FILE* file_pointer)
 {
 	bool from_file = input_from_file;
 
 	while(true){
-		if(from_file){
-			//read next instruction from file
-
+        char* line;
+        if(from_file){
+            line = get_commands_batch_file(file_pointer);
+            if(line == NULL){
+                from_file = false ;
+            }
 			// if end of file {from_file = false; continue;}
 		}
 		else{
-			//read next instruction from console
+			printf("InteractiveShell>>");
+            fgets(line , 513 ,stdin);//read next instruction from console
 		}
 
 		//parse your command here

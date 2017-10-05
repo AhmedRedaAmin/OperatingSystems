@@ -4,16 +4,16 @@ project(Shell)
 set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
-        Headers/command_parser.h
-        Headers/commands.h
-        Headers/environment.h
-        Headers/file_processing.h
-        Headers/variables.h
+        ${HEADER_FILES}
         command_parser.c
         commands.c
         environment.c
         file_processing.c
         linux_shell.c
         variables.c)
+
+include_directories(./Headers ./Resources)
+set(HEADER_FILES Headers/*)
+
 
 add_executable(Shell ${SOURCE_FILES})

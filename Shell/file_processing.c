@@ -1,57 +1,82 @@
+#include <stdio.h>
 #include "file_processing.h"
 
 /* 
 	history file section
 */
-void open_history_file()
+FILE * open_history_file(char *string , char mode)
 {
-	// you should implement this function
+    FILE* temp = fopen(string,(char*)mode);
+
 }
 
-FILE* get_history_file()
-{
-	// you should implement this function
+void get_history_file(FILE *file)
+{   char* line;
+    if (file == NULL){
+        printf("An error in retrieving the file, terminating process");
+        return;
+    }
+    while(!feof(file)){
+        if (fgets (line,513,file) != NULL){
+            printf("%s",line);
+        }
+    }
 }
 
-void close_history_file()
+void write_to_history_file(FILE *file ,char* entry)
 {
-	// you should implement this function
+    fputs(entry , file);
 }
 
+void close_history_file(FILE *file)
+{
+    fclose(file);
+}
 
 /* 
 	log file section
 */
-void open_log_file()
+FILE * open_log_file(char *string)
 {
-	// you should implement this function
+    FILE* temp = fopen(string,"a");
 }
 
-FILE* get_log_file()
+void write_to_log_file(FILE *file ,char* entry)
 {
-	// you should implement this function
+    fputs(entry,file);
+
 }
 
-void close_log_file()
+void close_log_file(FILE *file)
 {
-	// you should implement this function
+    fclose(file);
 }
 
 
 /* 
 	CommandsBatch file section
 */
-void open_commands_batch_file()
+FILE * open_commands_batch_file(char *string)
 {
-	// you should implement this function
+    FILE* temp = fopen(string,"r");
 }
 
-FILE* get_commands_batch_file()
+char * get_commands_batch_file(FILE *file)
 {
-	// you should implement this function
+    char* line;
+    if (file == NULL){
+        printf("An error in retrieving the file, terminating process");
+        return NULL;
+    }
+
+    if (!feof(file) && fgets(line,513,file) != NULL ){
+        return line;
+    }
+    return NULL;
+
 }
 
-void close_commands_batch_file()
+void close_commands_batch_file(FILE *file)
 {
-	// you should implement this function
+    fclose(file);
 }

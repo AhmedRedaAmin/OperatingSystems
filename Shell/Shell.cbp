@@ -44,6 +44,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/./Headers"/>
+					<Add directory="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/./Resources"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -67,6 +69,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/./Headers"/>
+					<Add directory="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/./Resources"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -84,21 +88,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/Headers/command_parser.h">
-			<Option target="Shell"/>
-		</Unit>
-		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/Headers/commands.h">
-			<Option target="Shell"/>
-		</Unit>
-		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/Headers/environment.h">
-			<Option target="Shell"/>
-		</Unit>
-		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/Headers/file_processing.h">
-			<Option target="Shell"/>
-		</Unit>
-		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/Headers/variables.h">
-			<Option target="Shell"/>
-		</Unit>
 		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/command_parser.c">
 			<Option target="Shell"/>
 		</Unit>

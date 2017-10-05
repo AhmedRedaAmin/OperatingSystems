@@ -1,0 +1,10 @@
+#!/bin/bash
+File1=$1
+
+if [ -z "$2"]
+then
+    echo Incorrect arguments
+else
+    cd `find ~ -name 'Shell'`
+
+fi
