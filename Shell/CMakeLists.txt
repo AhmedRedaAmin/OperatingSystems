@@ -10,7 +10,7 @@ set(SOURCE_FILES
         environment.c
         file_processing.c
         linux_shell.c
-        variables.c)
+        variables.c Headers/sllist.h sllist.c Headers/log_handle.h log_handle.c)
 
 include_directories(./Headers ./Resources)
 set(HEADER_FILES Headers/*)

@@ -204,6 +204,33 @@ environment.c.s:
 	$(MAKE) -f CMakeFiles/Shell.dir/build.make CMakeFiles/Shell.dir/environment.c.s
 .PHONY : environment.c.s
 
+error_handle.o: error_handle.c.o
+
+.PHONY : error_handle.o
+
+# target to build an object file
+error_handle.c.o:
+	$(MAKE) -f CMakeFiles/Shell.dir/build.make CMakeFiles/Shell.dir/error_handle.c.o
+.PHONY : error_handle.c.o
+
+error_handle.i: error_handle.c.i
+
+.PHONY : error_handle.i
+
+# target to preprocess a source file
+error_handle.c.i:
+	$(MAKE) -f CMakeFiles/Shell.dir/build.make CMakeFiles/Shell.dir/error_handle.c.i
+.PHONY : error_handle.c.i
+
+error_handle.s: error_handle.c.s
+
+.PHONY : error_handle.s
+
+# target to generate assembly for a file
+error_handle.c.s:
+	$(MAKE) -f CMakeFiles/Shell.dir/build.make CMakeFiles/Shell.dir/error_handle.c.s
+.PHONY : error_handle.c.s
+
 file_processing.o: file_processing.c.o
 
 .PHONY : file_processing.o
@@ -258,6 +285,33 @@ linux_shell.c.s:
 	$(MAKE) -f CMakeFiles/Shell.dir/build.make CMakeFiles/Shell.dir/linux_shell.c.s
 .PHONY : linux_shell.c.s
 
+sllist.o: sllist.c.o
+
+.PHONY : sllist.o
+
+# target to build an object file
+sllist.c.o:
+	$(MAKE) -f CMakeFiles/Shell.dir/build.make CMakeFiles/Shell.dir/sllist.c.o
+.PHONY : sllist.c.o
+
+sllist.i: sllist.c.i
+
+.PHONY : sllist.i
+
+# target to preprocess a source file
+sllist.c.i:
+	$(MAKE) -f CMakeFiles/Shell.dir/build.make CMakeFiles/Shell.dir/sllist.c.i
+.PHONY : sllist.c.i
+
+sllist.s: sllist.c.s
+
+.PHONY : sllist.s
+
+# target to generate assembly for a file
+sllist.c.s:
+	$(MAKE) -f CMakeFiles/Shell.dir/build.make CMakeFiles/Shell.dir/sllist.c.s
+.PHONY : sllist.c.s
+
 variables.o: variables.c.o
 
 .PHONY : variables.o
@@ -303,12 +357,18 @@ help:
 	@echo "... environment.o"
 	@echo "... environment.i"
 	@echo "... environment.s"
+	@echo "... error_handle.o"
+	@echo "... error_handle.i"
+	@echo "... error_handle.s"
 	@echo "... file_processing.o"
 	@echo "... file_processing.i"
 	@echo "... file_processing.s"
 	@echo "... linux_shell.o"
 	@echo "... linux_shell.i"
 	@echo "... linux_shell.s"
+	@echo "... sllist.o"
+	@echo "... sllist.i"
+	@echo "... sllist.s"
 	@echo "... variables.o"
 	@echo "... variables.i"
 	@echo "... variables.s"

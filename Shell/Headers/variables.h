@@ -1,6 +1,12 @@
 #ifndef VARIABLES_H_   /* Include guard */
 #define VARIABLES_H_
 
+typedef struct keyValuePair {
+    char* key;
+    char* data;
+};
+
+void setup_variables_table();
 /* 
 	- This function should be responsible for getting the value of a variable
 	- To execute commands, You must always search for the executable files 
@@ -16,7 +22,11 @@ const char* lookup_variable( const char* key );
 */
 void set_variable( const char* key , const char* value );
 
+/*
+ * - This function splits a variable line into a key value pair
+*/
 
+struct keyValuePair split_variable(const char* line);
 /*
 	[OPTIONAL] Doesn't affect the code logic
 	- This is a helper function to print all your variables

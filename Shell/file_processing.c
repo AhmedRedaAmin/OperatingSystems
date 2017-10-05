@@ -1,5 +1,8 @@
 #include <stdio.h>
+#include <log_handle.h>
 #include "file_processing.h"
+
+//Boiler plate code is for self documenting code purposes .
 
 /* 
 	history file section
@@ -13,7 +16,7 @@ FILE * open_history_file(char *string , char mode)
 void get_history_file(FILE *file)
 {   char* line;
     if (file == NULL){
-        printf("An error in retrieving the file, terminating process");
+        handle_shell_log("An error in retrieving the file, terminating process");
         return;
     }
     while(!feof(file)){
@@ -65,7 +68,7 @@ char * get_commands_batch_file(FILE *file)
 {
     char* line;
     if (file == NULL){
-        printf("An error in retrieving the file, terminating process");
+        handle_shell_log("An error in retrieving the file, terminating process");
         return NULL;
     }
 
@@ -77,6 +80,36 @@ char * get_commands_batch_file(FILE *file)
 }
 
 void close_commands_batch_file(FILE *file)
+{
+    fclose(file);
+}
+
+
+/*
+	Environment Variables file section
+*/
+
+FILE * open_EV_file(char *string)
+{
+    FILE* temp = fopen(string,"r");
+}
+
+char * get_EV_file(FILE *file)
+{
+    char* line;
+    if (file == NULL){
+        handle_shell_log("An error in retrieving the file, terminating process");
+        return NULL;
+    }
+
+    if (!feof(file) && fgets(line,513,file) != NULL ){
+        return line;
+    }
+    return NULL;
+
+}
+
+void close_EV_file(FILE *file)
 {
     fclose(file);
 }
