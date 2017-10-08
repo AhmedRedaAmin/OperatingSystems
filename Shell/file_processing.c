@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <log_handle.h>
+#include <stdint.h>
 #include "file_processing.h"
 
 //Boiler plate code is for self documenting code purposes .
@@ -9,7 +10,7 @@
 */
 FILE * open_history_file(char *string , char mode)
 {
-    FILE* temp = fopen(string,(char*)mode);
+    FILE* temp = fopen(string,(char*)(intptr_t)mode);
 
 }
 
@@ -80,36 +81,6 @@ char * get_commands_batch_file(FILE *file)
 }
 
 void close_commands_batch_file(FILE *file)
-{
-    fclose(file);
-}
-
-
-/*
-	Environment Variables file section
-*/
-
-FILE * open_EV_file(char *string)
-{
-    FILE* temp = fopen(string,"r");
-}
-
-char * get_EV_file(FILE *file)
-{
-    char* line;
-    if (file == NULL){
-        handle_shell_log("An error in retrieving the file, terminating process");
-        return NULL;
-    }
-
-    if (!feof(file) && fgets(line,513,file) != NULL ){
-        return line;
-    }
-    return NULL;
-
-}
-
-void close_EV_file(FILE *file)
 {
     fclose(file);
 }

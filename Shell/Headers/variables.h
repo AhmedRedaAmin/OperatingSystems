@@ -1,11 +1,6 @@
 #ifndef VARIABLES_H_   /* Include guard */
 #define VARIABLES_H_
 
-typedef struct keyValuePair {
-    char* key;
-    char* data;
-};
-
 void setup_variables_table();
 /* 
 	- This function should be responsible for getting the value of a variable
@@ -15,23 +10,20 @@ void setup_variables_table();
 	  performance is not an issue since in practice we expect low number of variables,
 	  as a tip: simple array lookup would be fine
 */
-const char* lookup_variable( const char* key );  
+char* lookup_variable( const char* key );
 
 /*
 	- This function should be responsible for setting the value of a variable
 */
-void set_variable( const char* key , const char* value );
+void set_variable( char* key , char* value );
 
-/*
- * - This function splits a variable line into a key value pair
-*/
-
-struct keyValuePair split_variable(const char* line);
 /*
 	[OPTIONAL] Doesn't affect the code logic
 	- This is a helper function to print all your variables
 	- Might help much in the debugging or testing
 */
 void print_all_variables( void );
+
+void free_variables_table();
 
 #endif // VARIABLES_H_

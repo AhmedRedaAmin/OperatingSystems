@@ -23,12 +23,4 @@ FILE* open_commands_batch_file(char*);
 char* get_commands_batch_file(FILE*);
 void close_commands_batch_file(FILE*);
 
-/*
-     EnvironmentVariables file basic funcions' prototypes
- */
-FILE* open_EV_file(char*);
-char* get_EV_file(FILE*);
-void close_EV_file(FILE*);
-
-
 #endif // FILE_PROCESSING_H_

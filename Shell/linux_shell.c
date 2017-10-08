@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <sys/wait.h>
 #include <stdlib.h>
+#include <variables.h>
+#include <command_parser.h>
 #include "environment.h"
 #include "file_processing.h"
 #include "log_handle.h"
@@ -11,7 +13,7 @@ typedef enum{ false = 0 , true = 1 } bool ;
 void start(bool read_from_file);
 void shell_loop(bool input_from_file,FILE* file_pointer);
 char* path;
-const char* history = "./Resources/History.txt";
+char* history = "./Resources/History.txt";
 
 int main(int argc, char *argv[])
 {
@@ -66,31 +68,28 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
             fgets(line , 513 ,stdin);//read next instruction from console
 		}
         write_to_history_file(Historyfile,line);
-
+        char ** context;
+        context = split_command(line);
+        context = variable_processing(context);
+        int nature_of_command = identify_command(context);
 
 		//parse your command here
 
-
-
         //execute your command here
         pid_t pID = fork();
-        int status;
+        background = check_background(context) == 0 ? true : false;
         if(pID == -1){
             handle_shell_log("Forking has failed");
             exit(0);
         } else if(pID == 0) {
+            exec_command(context,nature_of_command);
             //execute
+            //kill()
         } else {
             //handling background and foreground ops , foreground requires parent to wait
             //for the child process to finish and return its finishing status.
             if(background == false) {
-                pid_t progress = waitpid(pID, &status, NULL);
-
-                if (progress == pID) {
-                    handle_shell_log("Child process terminated");
-                } else {
-                    handle_shell_log("Child process aborted");
-                }
+                //handle Signal
             }
         }
 
@@ -101,4 +100,5 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
 		*/
 	}
     close_history_file(Historyfile);
+    free_variables_table();
 }

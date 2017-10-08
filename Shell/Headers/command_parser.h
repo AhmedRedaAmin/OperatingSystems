@@ -1,6 +1,17 @@
 #ifndef COMMAND_PARSER_H   /* Include guard */
 #define COMMAND_PARSER_H
 
+static const int MAN_LENGTH = 512; //mandatory length
+static const int EXECUTE = 1;
+static const int COMMAND = 2;
+static const int VARIABLE = 3;
+
+
+/*
+ * - This function splits a variable line into a key value pair
+*/
+
+
 /* 
 	- This function should be responsible for importing all details of the command 
 	- Should specify the type of the command "comment, cd, echo, expression - X=5 -, else"
@@ -13,7 +24,14 @@
 	- Best practice is to use helper function for each collection of logical instructions,
 	  example: function for splitting the command by space into array of strings, ..etc
 */
-void parse_command( const char* command );  
+char ** split_command(char* command );
 
+int check_background(char ** arguments);
+
+char** variable_processing(char** arguments);
+
+int identify_command(char** Arguments);
+
+void exec_command(char ** Arguments , int status);
 
 #endif // COMMAND_PARSER_H
