@@ -1,6 +1,7 @@
 #include <unistd.h>
 #include <variables.h>
 #include <memory.h>
+#include <log_handle.h>
 #include "commands.h"
 
 
@@ -21,6 +22,9 @@ void cd( char* path )
     while(PATH_val[m] != NULL && error_flag == -1 ){
 
         error_flag = execv(strcat(PATH_val[m],"/cd"),args);
+    }
+    if(PATH_val[m] == NULL && error_flag == -1 ){
+        handle_shell_log("Command failed to execute.");
     }
 
 }  
@@ -44,6 +48,9 @@ void echo( char* message )
     while(PATH_val[m] != NULL && error_flag == -1 ){
 
         error_flag = execv(strcat(PATH_val[m],"/echo"),args);
+    }
+    if(PATH_val[m] == NULL && error_flag == -1 ){
+        handle_shell_log("Command failed to execute.");
     }
 	// you should implement this function
 }

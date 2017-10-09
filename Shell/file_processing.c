@@ -8,9 +8,9 @@
 /* 
 	history file section
 */
-FILE * open_history_file(char *string , char mode)
+FILE * open_history_file(char *string , char* mode)
 {
-    FILE* temp = fopen(string,(char*)(intptr_t)mode);
+    FILE* temp = fopen(string,mode);
 
 }
 
@@ -21,7 +21,7 @@ void get_history_file(FILE *file)
         return;
     }
     while(!feof(file)){
-        if (fgets (line,513,file) != NULL){
+        if (fgets (line,1000,file) != NULL){
             printf("%s",line);
         }
     }
@@ -73,7 +73,7 @@ char * get_commands_batch_file(FILE *file)
         return NULL;
     }
 
-    if (!feof(file) && fgets(line,513,file) != NULL ){
+    if (!feof(file) && fgets(line,520,file) != NULL ){
         return line;
     }
     return NULL;

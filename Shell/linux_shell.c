@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <variables.h>
 #include <command_parser.h>
+#include <memory.h>
 #include "environment.h"
 #include "file_processing.h"
 #include "log_handle.h"
@@ -19,14 +20,17 @@ int main(int argc, char *argv[])
 {
 
     setup_environment();
+    signal(SIGCHLD,handle_backg_shell_log);
 
     // any other early configuration should be here
 
-    if( argc > 1 ){
+    if( argc == 2 ){
 		path = argv[1];
         start(true);
-    }
-    else{
+    } else if (argc > 2) {
+        handle_shell_log("Incorrect Number of Arguments to the program");
+        exit(0);
+    } else{
         start(false);
     }
 
@@ -52,7 +56,7 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
 {
 	bool from_file = input_from_file;
     bool background;
-    FILE* Historyfile = open_history_file(history,'a');
+    FILE* Historyfile = open_history_file(history,"a");
 	while(true){
         char* line;
         if(from_file){
@@ -65,17 +69,27 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
 		}
 		else{
 			printf("InteractiveShell>>");
-            fgets(line , 513 ,stdin);//read next instruction from console
+            fgets(line , 520 ,stdin);//read next instruction from console
+            if(line == EOF){ break ;}
 		}
         write_to_history_file(Historyfile,line);
+        if (strlen(line) > 512 ){
+            handle_shell_log("Command exceeds maximum limit");
+            continue;
+        }
+        //parse your command here
         char ** context;
-        context = split_command(line);
-        context = variable_processing(context);
+        context = split_command(line); //all special cases need to abort without further computations
+        if(context[0] == "ec" && context[1] == NULL){ continue;}
+        if(context[0] == " "|| context[0] == NULL){ continue;}
+        if(context[0] == "exit" && from_file == false){ break;}
+        if(context[0] == "exit"){ from_file = false ; continue;}
+        context = variable_processing(context); // end of special cases
         int nature_of_command = identify_command(context);
 
-		//parse your command here
 
         //execute your command here
+        int wStatus;
         pid_t pID = fork();
         background = check_background(context) == 0 ? true : false;
         if(pID == -1){
@@ -83,12 +97,17 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
             exit(0);
         } else if(pID == 0) {
             exec_command(context,nature_of_command);
-            //execute
-            //kill()
         } else {
             //handling background and foreground ops , foreground requires parent to wait
             //for the child process to finish and return its finishing status.
             if(background == false) {
+                wait(&wStatus);
+                char* x = "Child of process";
+                int y = getpid();
+                char* z = "has terminated";
+                strcat(x,(char*)y);
+                strcat(x,z);
+                handle_shell_log(x);
                 //handle Signal
             }
         }
@@ -102,3 +121,4 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
     close_history_file(Historyfile);
     free_variables_table();
 }
+
