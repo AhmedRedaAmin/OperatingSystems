@@ -88,7 +88,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/Headers/error_handle.h">
+		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/Headers/log_handle.h">
 			<Option target="Shell"/>
 		</Unit>
 		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/Headers/sllist.h">
@@ -103,13 +103,13 @@
 		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/environment.c">
 			<Option target="Shell"/>
 		</Unit>
-		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/error_handle.c">
-			<Option target="Shell"/>
-		</Unit>
 		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/file_processing.c">
 			<Option target="Shell"/>
 		</Unit>
 		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/linux_shell.c">
+			<Option target="Shell"/>
+		</Unit>
+		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/log_handle.c">
 			<Option target="Shell"/>
 		</Unit>
 		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/sllist.c">

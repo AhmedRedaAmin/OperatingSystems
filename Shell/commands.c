@@ -2,48 +2,27 @@
 #include <variables.h>
 #include <memory.h>
 #include <log_handle.h>
+#include <command_parser.h>
 #include "commands.h"
 
 
 void cd( char* path )
-{    char** PATH_val;
-    char* token;
-    int m = 0;
-    token = strtok(lookup_variable("PATH") , ":");
-    while(token != NULL){
-        PATH_val[m] = strcat(token,'\0');
-        m++;
-        token = strtok(NULL,":");
-    }
-    PATH_val[m]=NULL;
-    int error_flag = -1 ;
-    m = 0;
-    char* args[] = {"cd", path ,(char*)0};
-    while(PATH_val[m] != NULL && error_flag == -1 ){
-
-        error_flag = execv(strcat(PATH_val[m],"/cd"),args);
-    }
-    if(PATH_val[m] == NULL && error_flag == -1 ){
+{
+    int error_flag;
+    error_flag = chdir(path);
+    if( error_flag == -1 ){
         handle_shell_log("Command failed to execute.");
     }
-
 }  
 
 
 void echo( char* message )
 {
     char** PATH_val;
-    char* token;
     int m = 0;
-    token = strtok(lookup_variable("PATH") , ":");
-    while(token != NULL){
-        PATH_val[m] = strcat(token,'\0');
-        m++;
-        token = strtok(NULL,":");
-    }
-    PATH_val[m]=NULL;
+    tokenize(lookup_variable("PATH"), ":",PATH_val);
     int error_flag = -1 ;
-    m = 0;
+
     char* args[] = {"echo", message ,(char*)0};
     while(PATH_val[m] != NULL && error_flag == -1 ){
 
@@ -52,5 +31,4 @@ void echo( char* message )
     if(PATH_val[m] == NULL && error_flag == -1 ){
         handle_shell_log("Command failed to execute.");
     }
-	// you should implement this function
 }

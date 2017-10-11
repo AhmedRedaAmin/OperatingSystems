@@ -3,6 +3,6 @@
 
 void handle_shell_log(char *message);
 
-void handle_backg_shell_log(int signal);
+void handle_signal_shell_log(int signal);
 
 #endif //SHELL_ERROR_HANDLE_H

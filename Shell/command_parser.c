@@ -16,23 +16,10 @@ char ** split_command(char* command )
     }
 
             // count tokens and initialize an array of pointers of known size;
+    char** arg;
     int i = 0;
     char* token;
-    token = strtok(command , " ");
-    while(token != NULL){
-        i++;
-        token = strtok(NULL," ");
-    }
-    char *arg[i+1] ;
-
-    i = 0;
-    token = strtok(command , " ");
-    while(token != NULL){
-        arg[i] = token;
-        i++;
-        token = strtok(NULL," ");
-    }
-    arg[i]=NULL;
+    tokenize(command," ",arg);
     if(arg[0] == "echo"
             && arg[1][0] == '\"'){
         i = 0;
@@ -68,7 +55,8 @@ char** variable_processing(char** arguments){
 
             int z = 1;
             while(arguments[y][z] >= 97 || arguments[y][z] >= 65 || arguments[y][z] >= 48
-                    || arguments[y][z] <= 90 ||arguments[y][z] <= 122 || arguments[y][z] <= 57 ){
+                    || arguments[y][z] <= 90 ||arguments[y][z] <= 122 || arguments[y][z] <= 57 ||
+                    arguments[y][z] == 95){
             z++;
             }
             char buffer[z+1];
@@ -152,29 +140,17 @@ void exec_command(char ** Arguments , int status){
         if(Arguments[2]!= NULL){
             handle_shell_log("Variable assignment command invalid");
         } else if (Arguments[0] == "export"){
-            char * token;
-            int i = 0;
+
+
             char ** variable_assignment;
-            token = strtok(Arguments[1] , "=");
-            while(token != NULL){
-                variable_assignment[i] = strcat(token,'\0');
-                i++;
-                token = strtok(NULL,"=");
-            }
-            variable_assignment[i] = NULL;
+            tokenize(Arguments[1],"=",variable_assignment );
             variable_assignment = variable_processing(variable_assignment);
             set_variable(variable_assignment[0],variable_assignment[1]);
         } else {
-            char * token;
-            int i = 0;
+
+
             char ** variable_assignment;
-            token = strtok(Arguments[0] , "=");
-            while(token != NULL){
-                variable_assignment[i] = strcat(token,'\0');
-                i++;
-                token = strtok(NULL,"=");
-            }
-            variable_assignment[i] = NULL;
+            tokenize(Arguments[0], "=",variable_assignment);
             variable_assignment = variable_processing(variable_assignment);
             set_variable(variable_assignment[0],variable_assignment[1]);
         }
@@ -204,17 +180,10 @@ void exec_command(char ** Arguments , int status){
             }
             args[z] = (char*)0;
             char** path_val;
-            char* token;
+
             int m = 0;
-            token = strtok(lookup_variable("PATH") , ":");
-            while(token != NULL){
-                path_val[m] = strcat(token,'\0');
-                m++;
-                token = strtok(NULL,":");
-            }
-            path_val[m]=NULL;
+            tokenize(lookup_variable("PATH"), ":",path_val);
             int error_flag = -1 ;
-            m = 0;
             char* temp;
             while(path_val[m] != NULL && error_flag == -1 ){
                 temp = strcat(path_val[m],"/");
@@ -228,4 +197,27 @@ void exec_command(char ** Arguments , int status){
 
     }
 
+}
+
+void tokenize (char * str , char * delimeter , char ** arguments){
+
+
+    int i = 0;
+    char* token;
+    token = strtok(str , delimeter);
+    while(token != NULL){
+        i++;
+        token = strtok(NULL,delimeter);
+    }
+    char *arg[i+1]  ;
+
+    i = 0;
+    token = strtok(str , delimeter);
+    while(token != NULL){
+        arg[i] = token;
+        i++;
+        token = strtok(NULL,delimeter);
+    }
+    arg[i]=NULL;
+    arguments = arg;
 }

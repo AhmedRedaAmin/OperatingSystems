@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <signal.h>
 #include "log_handle.h"
 #include "file_processing.h"
 
@@ -11,10 +12,9 @@ void handle_shell_log(char *message){
     close_log_file(logs);
 }
 
-void handle_backg_shell_log(int signal){
-    char* message = "A background process has terminated";
-    FILE* logs = open_log_file("./Resources/logs.txt");
-    fputs(message,logs);
-    close_log_file(logs);
-
+void handle_signal_shell_log(int signal){
+        char* message = "A background process has terminated.";
+        FILE* logs = open_log_file("./Resources/logs.txt");
+        fputs(message,logs);
+        close_log_file(logs);
 }

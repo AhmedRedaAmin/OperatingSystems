@@ -34,4 +34,7 @@ int identify_command(char** Arguments);
 
 void exec_command(char ** Arguments , int status);
 
+// count tokens and initialize an array of pointers of known size;
+void tokenize(char * str , char * delimeter ,char ** arguments);
+
 #endif // COMMAND_PARSER_H

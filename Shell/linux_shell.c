@@ -11,17 +11,20 @@
 
 typedef enum{ false = 0 , true = 1 } bool ;
 
+void kill_process(int signal);
 void start(bool read_from_file);
 void shell_loop(bool input_from_file,FILE* file_pointer);
 char* path;
 char* history = "./Resources/History.txt";
+static pid_t  active_process;
+
 
 int main(int argc, char *argv[])
 {
 
     setup_environment();
-    signal(SIGCHLD,handle_backg_shell_log);
-
+    signal(SIGCHLD, handle_signal_shell_log);
+    signal(SIGINT, kill_process);
     // any other early configuration should be here
 
     if( argc == 2 ){
@@ -70,7 +73,7 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
 		else{
 			printf("InteractiveShell>>");
             fgets(line , 520 ,stdin);//read next instruction from console
-            if(line == EOF){ break ;}
+            if(line == NULL){ break ;}
 		}
         write_to_history_file(Historyfile,line);
         if (strlen(line) > 512 ){
@@ -84,20 +87,23 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
         if(context[0] == " "|| context[0] == NULL){ continue;}
         if(context[0] == "exit" && from_file == false){ break;}
         if(context[0] == "exit"){ from_file = false ; continue;}
-        context = variable_processing(context); // end of special cases
+        context = variable_processing(context);
         int nature_of_command = identify_command(context);
-
+        if(context[0] == "cd") {
+            exec_command(context,nature_of_command);
+            continue;}  // end of special cases
 
         //execute your command here
         int wStatus;
-        pid_t pID = fork();
         background = check_background(context) == 0 ? true : false;
+        pid_t pID = fork();
         if(pID == -1){
             handle_shell_log("Forking has failed");
             exit(0);
         } else if(pID == 0) {
             exec_command(context,nature_of_command);
         } else {
+            active_process = pID;
             //handling background and foreground ops , foreground requires parent to wait
             //for the child process to finish and return its finishing status.
             if(background == false) {
@@ -105,7 +111,7 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
                 char* x = "Child of process";
                 int y = getpid();
                 char* z = "has terminated";
-                strcat(x,(char*)y);
+                strcat(x,(char*)(intptr_t)y);
                 strcat(x,z);
                 handle_shell_log(x);
                 //handle Signal
@@ -122,3 +128,12 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
     free_variables_table();
 }
 
+void kill_process(int signal){
+    if(kill(active_process,0) == 0){
+        char* message = "Aborting active process.";
+        FILE* logs = open_log_file("./Resources/logs.txt");
+        fputs(message,logs);
+        close_log_file(logs);
+        kill(active_process, SIGKILL);
+    }
+}
