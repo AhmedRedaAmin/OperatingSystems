@@ -1,22 +1,27 @@
 #ifndef FILE_PROCESSING_H_   /* Include guard */
 #define FILE_PROCESSING_H_
 
-/* 
+/*
+ * Boiler plate code is for readability purposes
+ * which proved useful further down the road.
+*/
+
+/**
 	history file basic functions' prototypes
 */
 FILE* open_history_file(char*,char* mode);
-void get_history_file(FILE*);
+void display_history_file(FILE *);
 void write_to_history_file(FILE *file ,char *entry);
 void close_history_file(FILE*);
 
-/* 
+/**
 	log file basic functions' prototypes
 */
 FILE* open_log_file(char*);
 void write_to_log_file(FILE* ,char *entry);
 void close_log_file(FILE*);
 
-/* 
+/**
 	CommandsBatch file basic functions' prototypes
 */
 FILE* open_commands_batch_file(char*);

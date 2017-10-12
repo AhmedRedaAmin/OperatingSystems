@@ -5,6 +5,7 @@
 #include <variables.h>
 #include <command_parser.h>
 #include <memory.h>
+#include <wchar.h>
 #include "environment.h"
 #include "file_processing.h"
 #include "log_handle.h"
@@ -13,9 +14,8 @@ typedef enum{ false = 0 , true = 1 } bool ;
 
 void kill_process(int signal);
 void start(bool read_from_file);
-void shell_loop(bool input_from_file,FILE* file_pointer);
+void shell_loop(bool input_from_file,FILE* file_p);
 char* path;
-char* history = "./Resources/History.txt";
 static pid_t  active_process;
 
 
@@ -41,9 +41,8 @@ int main(int argc, char *argv[])
 }
 
 void start(bool read_from_file)
-{
-    char* home_arg[] = {"cd","~","\0"};
-	execv("/bin/cd",home_arg); // let shell starts from home
+{   char* x = getenv("HOME");
+    chdir(x);
 
 	if(read_from_file){
 		FILE* fp = open_commands_batch_file(path);
@@ -56,23 +55,29 @@ void start(bool read_from_file)
 }
 
 void shell_loop(bool input_from_file,FILE* file_pointer)
-{
-	bool from_file = input_from_file;
+{   FILE* file_p = file_pointer;
+    bool from_file = input_from_file;
     bool background;
+    char* temp = getenv("PWD");
+    char copy[strlen(temp)];
+    strcpy(copy , temp);
+    char* history = strcat(copy ,"/Resources/History.txt");
+    prepare_logs();
     FILE* Historyfile = open_history_file(history,"a");
-	while(true){
+    while(true){
         char* line;
         if(from_file){
-            line = get_commands_batch_file(file_pointer);
+            line = get_commands_batch_file(file_p);
             if(line == NULL){
                 from_file = false ;
-                close_commands_batch_file(file_pointer);
+                close_commands_batch_file(file_p);
             }
 			// if end of file {from_file = false; continue;}
 		}
 		else{
 			printf("InteractiveShell>>");
-            fgets(line , 520 ,stdin);//read next instruction from console
+            line = malloc(520*sizeof(char));
+            fgets(line,520,stdin);//read next instruction from console
             if(line == NULL){ break ;}
 		}
         write_to_history_file(Historyfile,line);
@@ -81,15 +86,28 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
             continue;
         }
         //parse your command here
+        char temp[strlen(line)];
+        memcpy(temp , &line[0],strlen(line)-1);
+        temp[strlen(line)-1] = '\0';
+        free(line);
+        line = temp ;
         char ** context;
         context = split_command(line); //all special cases need to abort without further computations
-        if(context[0] == "ec" && context[1] == NULL){ continue;}
-        if(context[0] == " "|| context[0] == NULL){ continue;}
-        if(context[0] == "exit" && from_file == false){ break;}
-        if(context[0] == "exit"){ from_file = false ; continue;}
-        context = variable_processing(context);
+        if(!strcmp(context[0], "history")){
+            close_history_file(Historyfile);
+            Historyfile = open_history_file(history,"r");
+            display_history_file(Historyfile);
+            close_history_file(Historyfile);
+            Historyfile = open_history_file(history,"a");
+            continue;
+        }
+        if(!strcmp(context[0],"ec") && context[1] == NULL){ continue;}
+        if(!strcmp(context[0], " ")|| context[0] == NULL){ continue;}
+        if(!strcmp(context[0],"exit") && from_file == false){ break;}
+        if(!strcmp(context[0],"exit")){ from_file = false ; continue;}
         int nature_of_command = identify_command(context);
-        if(context[0] == "cd") {
+        context = variable_processing(context);
+        if(!strcmp(context[0], "cd")) {
             exec_command(context,nature_of_command);
             continue;}  // end of special cases
 
@@ -99,7 +117,7 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
         pid_t pID = fork();
         if(pID == -1){
             handle_shell_log("Forking has failed");
-            exit(0);
+            continue;
         } else if(pID == 0) {
             exec_command(context,nature_of_command);
         } else {
@@ -117,7 +135,8 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
                 //handle Signal
             }
         }
-
+        free(line);
+        free(context);
 
 		/*
 			you don't need to write all logic here, a better practice is to call functions,
@@ -131,9 +150,7 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
 void kill_process(int signal){
     if(kill(active_process,0) == 0){
         char* message = "Aborting active process.";
-        FILE* logs = open_log_file("./Resources/logs.txt");
-        fputs(message,logs);
-        close_log_file(logs);
+        fputs(message,stdout);
         kill(active_process, SIGKILL);
     }
 }

@@ -1,7 +1,7 @@
-//
-// All rights reserved to the original author of the list
-// StackExchange user 2679083 "oddlogic"
-//
+
+/** All rights reserved to the original author of the list
+ * StackExchange user 2679083 "oddlogic"
+**/
 
 #ifndef SHELL_SLLIST_H
 #define SHELL_SLLIST_H

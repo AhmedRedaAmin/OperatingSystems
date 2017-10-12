@@ -1,8 +1,9 @@
-#include <unistd.h>
+
 #include <variables.h>
-#include <memory.h>
 #include <log_handle.h>
 #include <command_parser.h>
+#include <unistd.h>
+#include <memory.h>
 #include "commands.h"
 
 

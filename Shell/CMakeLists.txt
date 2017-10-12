@@ -14,6 +14,6 @@ set(SOURCE_FILES
 
 include_directories(./Headers ./Resources)
 set(HEADER_FILES Headers/*)
-
+SET(CMAKE_BUILD_TYPE Debug)
 
 add_executable(Shell ${SOURCE_FILES})

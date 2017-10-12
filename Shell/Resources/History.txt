@@ -1,0 +1,41 @@
+echo /$dahsd/$dajshkdfj
+echo /$dashfkjd/$dhfaks
+echo /$dhafskj/$sdfhaks
+echo /$dahkdfj/$dahfksdh
+echo /$dafhksdj/$dlkafjls
+echo /$dsajfdk/$dklafjl
+ echo /$dasjfhd/$dafhk
+echo /$dflaksj/$dfas
+echo /$dsafhsl/$dlafjsl
+ echo /$dlaksj/$dlakfjs
+echo /$dlkafjsd/$dkjfalskdj
+echo /$ldfakjsl/$dlkafls
+echo /$dlkfjasl/$ldkafjlsj
+echo /$dkjfalsk/$kdfjalskdj
+echo /$lkdjafls/$kdfajslkdjf
+x=7
+x=7
+x=7
+x=7
+x=6
+x=6
+x=7
+x=7
+x=5
+x=5
+exit
+x=7
+x=7
+x=6
+x=6
+x=7
+x=7
+x=6
+x=7
+v=53
+x=6
+ls -la
+ls -la
+ls
+ls
+echo ya rab

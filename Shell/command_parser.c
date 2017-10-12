@@ -5,6 +5,7 @@
 #include <variables.h>
 #include <unistd.h>
 #include <commands.h>
+#include <pwd.h>
 #include "command_parser.h"
 
 
@@ -16,11 +17,11 @@ char ** split_command(char* command )
     }
 
             // count tokens and initialize an array of pointers of known size;
-    char** arg;
+    char** arg = (char**)malloc(1024*sizeof(char*));
     int i = 0;
     char* token;
     tokenize(command," ",arg);
-    if(arg[0] == "echo"
+    if(!strcmp(arg[0], "echo")
             && arg[1][0] == '\"'){
         i = 0;
         char *arg[3] ;
@@ -51,25 +52,51 @@ char** variable_processing(char** arguments){
     char* key;
     char* value;
     while(arguments[y] != NULL){
-        if (arguments[y][0] == '$'){
+        if(arguments[y][0] == '~'){
+            char* home_dir;
+            int z = 1,aux;
+            while(arguments[y][z] != '/' && arguments[y][z] != '\0'){
+                z++;
+            }
+            if(z > 1) {
+                char user[z];
+                memcpy(user, &arguments[y][1],z-1);
+                user[z-1] = '\0';
+                struct passwd *user_account = getpwnam(user);
+                char* temp = user_account->pw_dir;
+                home_dir = malloc(strlen(temp));
+                strcpy(home_dir,temp);
+            }
+            aux = z ;
+            while(arguments[y][z] != '\0'){
+                z++;
+            }
+            char buffer[z];
+            memcpy(buffer, &arguments[y][aux-1],z-aux);
+            buffer[z-aux]= '\0';
 
-            int z = 1;
-            while(arguments[y][z] >= 97 || arguments[y][z] >= 65 || arguments[y][z] >= 48
-                    || arguments[y][z] <= 90 ||arguments[y][z] <= 122 || arguments[y][z] <= 57 ||
-                    arguments[y][z] == 95){
-            z++;
+            arguments[y] = strcat(home_dir,buffer);
+        } else if (arguments[y][0] == '.' && arguments[y][1] == '.'){
+            int z = 2;
+            while(arguments[y][z] != '\0'){
+                z++;
             }
             char buffer[z+1];
-            memcpy(buffer, &arguments[y][1],z);
-            buffer[z+1] = '\0';
-            key = buffer;
-            value = lookup_variable(key);
-            if (value == NULL){
-            handle_shell_log("Error : no such variable");
-                exit(0);
+            memcpy(buffer, &arguments[y][2],z);
+            buffer[z+1]= '\0';
+            char* currentD = malloc(1024);
+            getcwd(currentD,1024);
+            int i = 0,last_slash = 0;
+            while(currentD[i] != '\0'){
+                if(currentD[i] == '/'){
+                    last_slash = i;
+                }
+                i++;
             }
-            arguments[y] = value;
-        } else if (arguments[y] == ".."){
+            char* temp = malloc(last_slash);
+            memcpy(temp , &currentD[0], last_slash);
+            arguments[y] = strcat(temp,buffer);
+            free(currentD);
             continue;
         } else if (arguments[y][0] == '.'){
             int z = 1;
@@ -79,9 +106,49 @@ char** variable_processing(char** arguments){
             char buffer[z+1];
             memcpy(buffer, &arguments[y][1],z);
             buffer[z+1]= '\0';
-            char* currentD = getenv("PWD");
+            char* currentD = malloc(1024);
+            getcwd(currentD,1024);
             arguments[y] = strcat(currentD,buffer);
         }
+        int z = 0,start_loc;
+        do {
+            while (arguments[y][z] != '$' && arguments[y][z] != '\0') {
+                z++;
+            }
+            if(arguments[y][z] == '\0'){ break;}
+            start_loc = z-1;
+            z++;
+            while ((arguments[y][z] >= 'a' && arguments[y][z] <= 'z')
+                   ||( arguments[y][z] >= 'A'&& arguments[y][z] <= 'Z')
+                   || (arguments[y][z] >= '0' && arguments[y][z] <= '9') ||arguments[y][z] == 95) {
+                z++;
+            }
+            char buffer[z + 1];
+            memcpy(buffer, &arguments[y][start_loc + 2], z-start_loc-2);
+            buffer[z-start_loc-2] = '\0';
+            key = buffer;
+            value = lookup_variable(key);
+            if (value == NULL) {
+                    //handle_shell_log("Error : no such variable");
+
+                    continue;
+            }
+            char* rest_of_string = malloc(1024);
+            char start_of_string[1024];
+            if(start_loc > -1) {
+                char start_of_string[start_loc + 2];
+                memcpy(start_of_string, &arguments[y][0], start_loc + 1);
+                start_of_string[start_loc + 1] = '\0';
+            } else {
+                strcpy(start_of_string,"");
+            }
+            memcpy(rest_of_string,&arguments[y][z-1],strlen(arguments[y])-z+1);
+            rest_of_string[strlen(arguments[y])-z+1] = '\0';
+            strcat(start_of_string,value);
+            strcat(start_of_string,rest_of_string);
+             strcpy(arguments[y],start_of_string) ;
+            }while(1);
+        y++;
     }
     return arguments;
 }
@@ -201,10 +268,11 @@ void exec_command(char ** Arguments , int status){
 
 void tokenize (char * str , char * delimeter , char ** arguments){
 
-
+    char* temp = malloc(strlen(str));
+    strcpy(temp,str);
     int i = 0;
     char* token;
-    token = strtok(str , delimeter);
+    token = strtok(temp , delimeter);
     while(token != NULL){
         i++;
         token = strtok(NULL,delimeter);
@@ -214,10 +282,17 @@ void tokenize (char * str , char * delimeter , char ** arguments){
     i = 0;
     token = strtok(str , delimeter);
     while(token != NULL){
-        arg[i] = token;
+        arg[i] = malloc(strlen(token));
+        strcpy(arg[i] ,token);
         i++;
         token = strtok(NULL,delimeter);
     }
     arg[i]=NULL;
-    arguments = arg;
+    i = 0;
+    while(arg[i] != NULL){
+        arguments[i] = arg[i];
+        i++;
+    }
+    free(temp);
+
 }

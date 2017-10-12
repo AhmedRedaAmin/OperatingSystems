@@ -17,12 +17,15 @@ void setup_variables_table(){
 }
 char* lookup_variable( const char* key )
 {   variableT->current = variableT->head;
-    int status = variableT->current == NULL ?  1 : 6 ;
-    char* value;
+    int status = (variableT->current == NULL) ?  1 : 6 ;
+    char* value = NULL ;
     while (status != 1){
         int i = 0;
         status = sllist_step(variableT);
-        int compare = strcmp(key,variableT->current->key);
+        int compare = 20;
+        if(variableT->current != NULL){
+        compare = strcmp(key,variableT->current->key);
+            }
         if (compare == 0){
             value = variableT->current->data;
         }
