@@ -40,8 +40,11 @@ char* lookup_variable( const char* key )
 }
 
 void set_variable( char* key , char* value )
-{
-  sllist_push_back(variableT,key,value);
+{   char* keyC = malloc(strlen(key)+1);
+    char* valueC = malloc(strlen(value)+1);
+    strcpy(keyC,key);
+    strcpy(valueC,value);
+  sllist_push_back(variableT,keyC,valueC);
 
 }
 

@@ -9,7 +9,7 @@ static char* Res_path;
 
 void prepare_logs(){
     Res_path = getenv("PWD");
-    char* copy = malloc(strlen(Res_path));
+    char* copy = malloc(strlen(Res_path)+20);
     strcpy(copy,Res_path);
     strcat( copy , "/Resources/logs.txt");
     Res_path = copy ;
@@ -23,7 +23,7 @@ void handle_shell_log(char *message){
 }
 
 void handle_signal_shell_log(int signal){
-        char* message = "A background process has terminated.";
+        char* message = "A background process has terminated.\n";
         FILE* logs = open_log_file(Res_path);
         fputs(message,logs);
         close_log_file(logs);

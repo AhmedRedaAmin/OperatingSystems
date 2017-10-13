@@ -32,7 +32,7 @@ void sllist_destroy(struct sllist *sllist)
     free(sllist);
 }
 
-int sllist_push_front(struct sllist *sllist, char *key,void *data)
+int sllist_push_front(struct sllist *sllist, char *key,char *data)
 {
     struct lnode *lnode;
     lnode = (struct lnode *) malloc(sizeof(struct lnode));
@@ -49,7 +49,7 @@ int sllist_push_front(struct sllist *sllist, char *key,void *data)
 
 }
 
-int sllist_push_back(struct sllist *sllist, char *key,void *data)
+int sllist_push_back(struct sllist *sllist, char *key,char *data)
 {
     struct lnode *lnode;
     lnode = (struct lnode *) malloc(sizeof(struct lnode));
@@ -92,7 +92,7 @@ void* sllist_pop_back(struct sllist *sllist)
 {
     if (sllist->size == 0)
         return NULL;
-    void *data = sllist->tail->data;
+    char *data = sllist->tail->data;
     struct lnode *save_tail = sllist->tail;
     if (sllist->size == 1) {
         sllist->head = NULL;
@@ -132,7 +132,7 @@ void* sllist_read_index(struct sllist *sllist, int index)
     return (target->data);
 }
 
-int sllist_insert_after(struct sllist *sllist, int index, char *key,void *data)
+int sllist_insert_after(struct sllist *sllist, int index, char *key,char *data)
 {
     if ( ((sllist->size - index - 1) < 0 ) || (index < 0) )
         return 1;
@@ -165,7 +165,7 @@ void* sllist_extract_after(struct sllist *sllist, int index)
         target = target->next;
     if (index == sllist->size - 1) //if extracting tail
         sllist->tail = target;
-    void *data = target->next->data;
+    char *data = target->next->data;
     struct lnode *save_obsolete = target->next;
     target->next = target->next->next;
     free(save_obsolete);

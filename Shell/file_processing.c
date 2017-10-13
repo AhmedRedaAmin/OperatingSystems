@@ -13,20 +13,22 @@
 FILE * open_history_file(char *string , char* mode)
 {
     FILE* temp = fopen(string,mode);
-
+    return temp;
 }
 
 void display_history_file(FILE *file)
 {   char* line;
+    line = malloc(1001);
     if (file == NULL){
         handle_shell_log("An error in retrieving the file, terminating process");
         return;
     }
     while(!feof(file)){
-        if (fgets (line,1000,file) != NULL){
-            printf("%s",line);
-        }
+        fgets (line,1000,file);
+            printf("%s\n",line);
+
     }
+    free(line);
 }
 
 void write_to_history_file(FILE *file ,char* entry)
@@ -66,12 +68,14 @@ void close_log_file(FILE *file)
 */
 FILE * open_commands_batch_file(char *string)
 {
-    FILE* temp = fopen(string,"r");
+    FILE* temp;
+    temp = fopen(string,"r");
+    return temp;
 }
 
 char * get_commands_batch_file(FILE *file)
 {
-    char* line;
+    char* line = malloc(521);
     if (file == NULL){
         handle_shell_log("An error in retrieving the file, terminating process");
         return NULL;

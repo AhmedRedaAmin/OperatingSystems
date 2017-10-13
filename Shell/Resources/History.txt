@@ -1,41 +1,730 @@
-echo /$dahsd/$dajshkdfj
-echo /$dashfkjd/$dhfaks
-echo /$dhafskj/$sdfhaks
-echo /$dahkdfj/$dahfksdh
-echo /$dafhksdj/$dlkafjls
-echo /$dsajfdk/$dklafjl
- echo /$dasjfhd/$dafhk
-echo /$dflaksj/$dfas
-echo /$dsafhsl/$dlafjsl
- echo /$dlaksj/$dlakfjs
-echo /$dlkafjsd/$dkjfalskdj
-echo /$ldfakjsl/$dlkafls
-echo /$dlkfjasl/$ldkafjlsj
-echo /$dkjfalsk/$kdfjalskdj
-echo /$lkdjafls/$kdfajslkdjf
+ls
+ls -al
+x=4 
+gedit &
+ls
+ls -al
+x=4 
+gedit &
+ls
+ls -al
+x=4 
+gedit &
+ls
+ls -al
+x=4 
+gedit &
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+ps
+ls
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+ls
+cd
+ls
+ls
+ps
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+ls -la
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+cd ~
+pwd
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+ps
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+ps
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+ls
+ls -al
+x=4 
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exiy
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exiy
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+for(int p = 0 ; p < strlen(line)-1 ; p++){
+            free(line[p])
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+for(int p = 0 ; p < strlen(line)-1 ; p++){
+        }exit
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+for(int p = 0 ; p < strlen(line)-1 ; p++){
+            free(line[p])
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+for(int p = 0 ; p < strlen(line)-1 ; p++){
+        }exit
+[Als
+ls -al
+x=4 
+gedit &
+echo "executed once"
+for(int p = 0 ; p < strlen(line)-1 ; p++){
+        }exit
+[Als
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+cd ~
+pwd
+cd ~
+pwd
+ls -la
+cd ~
+pwd
+cd ~
+pwd
+ps
+cd ~
+pwd
+cd ~
+pwd
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+cd ~
+pwd
+ls -la
+vim
+exit
+cd ~
+pwd
+ls -la
+vim
+exit
+cd ~
+pwd
+ls -la
+exit
+cd ~
+pwd
+exit
+cd ~
 x=7
-x=7
-x=7
-x=7
-x=6
-x=6
-x=7
-x=7
+echo $x
+pwd
+ls -la
+mkdir sdfaslkdj
+ls
+man ls
+echo lsdkjfksja
+echo "dasdf"
+history
+cd ~ahmed
+pwd
+ls
+cd ~ahmed
+pwd
+ls
+htop
+cd ~ahmed
+pwd
+ls
+htop
+echo sdfa
+echo death
+x=/sdfasdfa/sdfas
+echo $x
+ls -la
+ls -la
+cd ~/cs333/
+pwd
+gedit &
+ps
+exit
+ls -la
+cd ~
+pwd
+cd ~ahmed
+pwd
+cd ~/cs333
+pwd
+cd ~ahmed
+pwd
+htop
+qqqq
+ls -l -a
+ls -l -a
+exit
+ls -la
+cd ~
+pwd
+cd ~ahmed
+pwd
+cd ~/cs333
+pwd
+cd ~ahmed
+pwd
+htop
+qqqq
+ls -l -a
+ls -l -a
+exit
+ls -la
+cd ~
+pwd
+cd ~ahmed
+pwd
+cd ~/cs333
+pwd
+cd ~ahmed
+pwd
+htop
+qqqq
+ls -l -a
+ps
+exit
+ls -la
+cd ~
+pwd
+cd ~ahmed
+pwd
+cd ~/cs333
+pwd
+cd ~ahmed
+pwd
+htop
+qqqq
+ls -l -a
+ps
+exit
+ls -la
+cd ~
+pwd
+cd ~ahmed
+pwd
+cd ~/cs333
+pwd
+cd ~ahmed
+pwd
+htop
+qqqq
+exit
+ls -la
+echo ahmed
 x=5
+ls -la
+echo ahmed
 x=5
+echo $x
+x=8
+ls -la
+echo ahmed
+x=5
+echo $x
+ps
+gedit &
+ps
+exit
+ls -la
+echo ahmed
+ls -l -a
+x=8
+ls -la
+echo ahmed
+ls -l -a
+x=8
+echo $x
+y=/asdfasdf/sdfasd
+ls -la
+echo ahmed
+ls -l -a
+x=8
+echo $x
+y=/asdfasdf/sdfasd
+echo $y
+echo PATH
+echo $PATH
+ls -la
+echo ahmed
+ls -l -a
+x=8
+echo $x
+y=/asdfasdf/sdfasd
+echo $y
+echo PATH
+echo $PATH
+ls -la
+echo ahmed
+ls -l -a
+x=8
+echo $x
+y=/asdfasdf/sdfasd
+echo $y
+echo PATH
+export x=6
+x=7
+x=7
+y=8
+x=7
+x=7
+x=7
+x=7
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
 exit
 x=7
 x=7
-x=6
-x=6
+echo $x
+x=/sdfasdfa/sdfasdfas
 x=7
+echo $x
+exit
 x=7
-x=6
+echo $x
+exit
 x=7
-v=53
-x=6
-ls -la
-ls -la
+exit
+cd ~
+pwd
+x=7
+cd ~
+pwd
+x=7
+echo $x
+exit
+cd ~
+pwd
+x=7
+echo $x
+exit
 ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
 ls
-echo ya rab
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+x=7
+echo $x
+exit
+x=7
+echo $x
+exit
+x=7
+exit
+ls 
+cd ~/Desktop
+ls
+pwd
+cd ~ahmed
+pwd
+x=7
+echo $x
+cd $x
+echo $x
+echo $y
+exit
+ls 
+cd ~/Desktop
+ls
+pwd
+cd ~ahmed
+pwd
+x=7
+exit
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+ps
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+ps
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+ps
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+ps
+ps
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+ps
+ps
+exit
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+ls
+ls -al
+x=4 
+gedit &
+echo "executed once"
+exit
+
+pwd
+echo "executed once"
+exit
+pwd
+echo "executed once"
+ps
+history
+exit
+pwd
+echo "executed once"
+exit
+pwd
+echo "executed once"
+ls 
+gedit &
+exit
+pwd
+echo "executed once"
+ls 
+gedit &
+exit
+pwd
+echo "executed once"
+ls 
+gedit &
+exit
+ls
+gedit &
+pwd
+shutter &
+echo "executed once"
+
+ls
+gedit &
+pwd
+shutter &
+echo "executed once"
+
+ls
+gedit &
+pwd
+shutter &
+echo "executed once"
+
+ls
+gedit &
+pwd
+shutter &
+echo "executed once"
+
+ps
+exit
+ls
+gedit &
+pwd
+shutter &
+echo "executed once"
+
+ps
+ps
+ls -la
+exit

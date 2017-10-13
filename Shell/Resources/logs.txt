@@ -1,0 +1,2882 @@
+A background process has terminated.A background process has terminated.A background process has terminated.A background process has terminated.A background process has terminated.A background process has terminated.A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+���Child of process 32440 has terminated 
+A background process has terminated.
+���Child of process 32524 has terminated 
+A background process has terminated.
+Child of process 1036 has terminated 
+A background process has terminated.
+Child of process 1036 has terminated 
+Child of process 1036 has terminated 
+A background process has terminated.
+���Child of process 2041 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+(���Child of process 2518 has terminated 
+Error : no such variableError : no such variableA background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Command failed to execute.Error : no such variableError : no such variableA background process has terminated.
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Command failed to execute.Error : no such variableError : no such variableA background process has terminated.
+A background process has terminated.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Command failed to execute.Error : no such variableError : no such variableA background process has terminated.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Command failed to execute.Error : no such variableError : no such variableA background process has terminated.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Command failed to execute.Error : no such variableError : no such variableA background process has terminated.
+Child of process 4049 has terminated 
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Command failed to execute.Error : no such variableError : no such variableA background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Command failed to execute.Error : no such variableError : no such variableA background process has terminated.
+A background process has terminated.
+Command failed to execute.
+Child of process 4047 has terminated 
+Command failed to execute.
+Command failed to execute.
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Command failed to execute.Error : no such variableError : no such variableA background process has terminated.
+Child of process 4047 has terminated 
+Child of process 4047 has terminated 
+Command failed to execute.
+Command failed to execute.
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Child of process 3984 has terminated 
+Command failed to execute.Error : no such variableError : no such variableA background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+A background process has terminated.
+Child of process 4278 has terminated 
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+A background process has terminated.
+Child of process 4277 has terminated 
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+A background process has terminated.
+Child of process 4276 has terminated 
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+A background process has terminated.
+Child of process 4275 has terminated 
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+A background process has terminated.
+Child of process 4274 has terminated 
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+A background process has terminated.
+Child of process 4273 has terminated 
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+A background process has terminated.
+Command failed to execute.
+Child of process 4272 has terminated 
+Command failed to execute.
+Command failed to execute.
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+A background process has terminated.
+Child of process 4272 has terminated 
+Child of process 4272 has terminated 
+Command failed to execute.
+Command failed to execute.
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+A background process has terminated.
+Child of process 4271 has terminated 
+Command failed to execute.
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+A background process has terminated.
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Child of process 4250 has terminated 
+Command failed to execute.
+A background process has terminated.
+؜ԖChild of process 4644 has terminated 
+Command failed to execute.
+Command failed to execute.A background process has terminated.
+x���Child of process 4675 has terminated 
+Command failed to execute.A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Command failed to execute.
+A background process has terminated.
+��+�Child of process 4936 has terminated 
+Child of process 4775 has terminated 
+Child of process 4775 has terminated 
+Child of process 4775 has terminated 
+Child of process 4775 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 5068 has terminated 
+Command failed to execute.
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+A background process has terminated.
+Child of process 5067 has terminated 
+Command failed to execute.
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+A background process has terminated.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+Child of process 4981 has terminated 
+Command failed to execute.
+A background process has terminated.
+؜!7=Child of process 5239 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 5273 has terminated 
+Command failed to execute.Child of process 5273 has terminated 
+Command failed to execute.Child of process 5273 has terminated 
+Child of process 5273 has terminated 
+Child of process 5273 has terminated 
+Command failed to execute.Command failed to execute.Child of process 5273 has terminated 
+Child of process 5273 has terminated 
+Command failed to execute.Child of process 5273 has terminated 
+Child of process 5273 has terminated 
+Command failed to execute.Command failed to execute.Command failed to execute.Child of process 5273 has terminated 
+Child of process 5273 has terminated 
+Command failed to execute.Command failed to execute.Child of process 5273 has terminated 
+Child of process 5273 has terminated 
+Child of process 5273 has terminated 
+Child of process 5273 has terminated 
+Child of process 5273 has terminated 
+A background process has terminated.
+Child of process 5273 has terminated 
+Child of process 5273 has terminated 
+Command failed to execute.Child of process 5273 has terminated 
+Command failed to execute.Child of process 5273 has terminated 
+Child of process 5273 has terminated 
+Child of process 5273 has terminated 
+Command failed to execute.Command failed to execute.Child of process 5273 has terminated 
+Child of process 5273 has terminated 
+Command failed to execute.Child of process 5273 has terminated 
+Child of process 5273 has terminated 
+Command failed to execute.Command failed to execute.Command failed to execute.Child of process 5273 has terminated 
+
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+A background process has terminated.
+Child of process 18880 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+A background process has terminated.
+Child of process 18879 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+A background process has terminated.
+Child of process 18879 has terminated 
+Child of process 18879 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+A background process has terminated.
+Child of process 18887 has terminated 
+Error : no such variable
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+A background process has terminated.
+Child of process 18839 has terminated 
+Error : no such variable
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+A background process has terminated.
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Error : no such variable
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Command failed to execute.
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+A background process has terminated.
+Child of process 18928 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Command failed to execute.
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+A background process has terminated.
+Child of process 18927 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Command failed to execute.
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+A background process has terminated.
+Child of process 18927 has terminated 
+Child of process 18927 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Command failed to execute.
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Command failed to execute.
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+A background process has terminated.
+Child of process 18935 has terminated 
+Error : no such variable
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Command failed to execute.
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+A background process has terminated.
+Child of process 18850 has terminated 
+Error : no such variable
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Command failed to execute.
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+A background process has terminated.
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Error : no such variable
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Child of process 18850 has terminated 
+Command failed to execute.
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+Child of process 18839 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 18974 has terminated 
+Child of process 18974 has terminated 
+Child of process 18974 has terminated 
+Command failed to execute.
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+A background process has terminated.
+Child of process 18980 has terminated 
+Child of process 18974 has terminated 
+Child of process 18974 has terminated 
+Child of process 18974 has terminated 
+Command failed to execute.
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+A background process has terminated.
+Child of process 18979 has terminated 
+Child of process 18974 has terminated 
+Child of process 18974 has terminated 
+Child of process 18974 has terminated 
+Command failed to execute.
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+A background process has terminated.
+Child of process 18979 has terminated 
+Child of process 18979 has terminated 
+Child of process 18974 has terminated 
+Child of process 18974 has terminated 
+Child of process 18974 has terminated 
+Command failed to execute.
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 18974 has terminated 
+Child of process 18974 has terminated 
+Child of process 18974 has terminated 
+Child of process 18974 has terminated 
+Command failed to execute.
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+A background process has terminated.
+Child of process 18999 has terminated 
+Error : no such variable
+Child of process 18974 has terminated 
+Child of process 18974 has terminated 
+Child of process 18974 has terminated 
+Child of process 18974 has terminated 
+Command failed to execute.
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+A background process has terminated.
+Child of process 18974 has terminated 
+Error : no such variable
+Child of process 18974 has terminated 
+Child of process 18974 has terminated 
+Child of process 18974 has terminated 
+Child of process 18974 has terminated 
+Command failed to execute.
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+A background process has terminated.
+Child of process 18974 has terminated 
+Child of process 18974 has terminated 
+Error : no such variable
+Child of process 18974 has terminated 
+Child of process 18974 has terminated 
+Child of process 18974 has terminated 
+Child of process 18974 has terminated 
+Command failed to execute.
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+A background process has terminated.
+Child of process 19010 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+A background process has terminated.
+Child of process 19009 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+A background process has terminated.
+Child of process 19009 has terminated 
+Child of process 19009 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+A background process has terminated.
+Child of process 19019 has terminated 
+Error : no such variable
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+A background process has terminated.
+Child of process 18963 has terminated 
+Error : no such variable
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+A background process has terminated.
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Error : no such variable
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+Child of process 18963 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 19109 has terminated 
+Child of process 19109 has terminated 
+Child of process 19109 has terminated 
+Command failed to execute.
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+A background process has terminated.
+Child of process 19115 has terminated 
+Child of process 19109 has terminated 
+Child of process 19109 has terminated 
+Child of process 19109 has terminated 
+Command failed to execute.
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+A background process has terminated.
+Child of process 19114 has terminated 
+Child of process 19109 has terminated 
+Child of process 19109 has terminated 
+Child of process 19109 has terminated 
+Command failed to execute.
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+A background process has terminated.
+Child of process 19114 has terminated 
+Child of process 19114 has terminated 
+Child of process 19109 has terminated 
+Child of process 19109 has terminated 
+Child of process 19109 has terminated 
+Command failed to execute.
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 19109 has terminated 
+Child of process 19109 has terminated 
+Child of process 19109 has terminated 
+Child of process 19109 has terminated 
+Command failed to execute.
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+A background process has terminated.
+Child of process 19127 has terminated 
+Error : no such variable
+Child of process 19109 has terminated 
+Child of process 19109 has terminated 
+Child of process 19109 has terminated 
+Child of process 19109 has terminated 
+Command failed to execute.
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+A background process has terminated.
+Child of process 19109 has terminated 
+Error : no such variable
+Child of process 19109 has terminated 
+Child of process 19109 has terminated 
+Child of process 19109 has terminated 
+Child of process 19109 has terminated 
+Command failed to execute.
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+A background process has terminated.
+Child of process 19109 has terminated 
+Child of process 19109 has terminated 
+Error : no such variable
+Child of process 19109 has terminated 
+Child of process 19109 has terminated 
+Child of process 19109 has terminated 
+Child of process 19109 has terminated 
+Command failed to execute.
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+A background process has terminated.
+Child of process 19138 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+A background process has terminated.
+Child of process 19137 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+A background process has terminated.
+Child of process 19137 has terminated 
+Child of process 19137 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+A background process has terminated.
+Child of process 19145 has terminated 
+Error : no such variable
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+A background process has terminated.
+Child of process 19097 has terminated 
+Error : no such variable
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+A background process has terminated.
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Error : no such variable
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+Child of process 19097 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 19258 has terminated 
+Child of process 19258 has terminated 
+Child of process 19258 has terminated 
+Command failed to execute.
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+A background process has terminated.
+Child of process 19264 has terminated 
+Child of process 19258 has terminated 
+Child of process 19258 has terminated 
+Child of process 19258 has terminated 
+Command failed to execute.
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+A background process has terminated.
+Child of process 19263 has terminated 
+Child of process 19258 has terminated 
+Child of process 19258 has terminated 
+Child of process 19258 has terminated 
+Command failed to execute.
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+A background process has terminated.
+Child of process 19263 has terminated 
+Child of process 19263 has terminated 
+Child of process 19258 has terminated 
+Child of process 19258 has terminated 
+Child of process 19258 has terminated 
+Command failed to execute.
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 19258 has terminated 
+Child of process 19258 has terminated 
+Child of process 19258 has terminated 
+Child of process 19258 has terminated 
+Command failed to execute.
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+A background process has terminated.
+Child of process 19280 has terminated 
+Error : no such variable
+Child of process 19258 has terminated 
+Child of process 19258 has terminated 
+Child of process 19258 has terminated 
+Child of process 19258 has terminated 
+Command failed to execute.
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+A background process has terminated.
+Child of process 19258 has terminated 
+Error : no such variable
+Child of process 19258 has terminated 
+Child of process 19258 has terminated 
+Child of process 19258 has terminated 
+Child of process 19258 has terminated 
+Command failed to execute.
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+A background process has terminated.
+Child of process 19258 has terminated 
+Child of process 19258 has terminated 
+Error : no such variable
+Child of process 19258 has terminated 
+Child of process 19258 has terminated 
+Child of process 19258 has terminated 
+Child of process 19258 has terminated 
+Command failed to execute.
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+A background process has terminated.
+Child of process 19291 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+A background process has terminated.
+Child of process 19290 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+A background process has terminated.
+Child of process 19290 has terminated 
+Child of process 19290 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+A background process has terminated.
+Child of process 19298 has terminated 
+Error : no such variable
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+A background process has terminated.
+Child of process 19247 has terminated 
+Error : no such variable
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+A background process has terminated.
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Error : no such variable
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+Child of process 19247 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 19719 has terminated 
+Child of process 19719 has terminated 
+Child of process 19719 has terminated 
+Command failed to execute.
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+A background process has terminated.
+Child of process 19725 has terminated 
+Child of process 19719 has terminated 
+Child of process 19719 has terminated 
+Child of process 19719 has terminated 
+Command failed to execute.
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+A background process has terminated.
+Child of process 19724 has terminated 
+Child of process 19719 has terminated 
+Child of process 19719 has terminated 
+Child of process 19719 has terminated 
+Command failed to execute.
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+A background process has terminated.
+Child of process 19724 has terminated 
+Child of process 19724 has terminated 
+Child of process 19719 has terminated 
+Child of process 19719 has terminated 
+Child of process 19719 has terminated 
+Command failed to execute.
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 19719 has terminated 
+Child of process 19719 has terminated 
+Child of process 19719 has terminated 
+Child of process 19719 has terminated 
+Command failed to execute.
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+A background process has terminated.
+Child of process 19739 has terminated 
+Error : no such variable
+Child of process 19719 has terminated 
+Child of process 19719 has terminated 
+Child of process 19719 has terminated 
+Child of process 19719 has terminated 
+Command failed to execute.
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+A background process has terminated.
+Child of process 19719 has terminated 
+Error : no such variable
+Child of process 19719 has terminated 
+Child of process 19719 has terminated 
+Child of process 19719 has terminated 
+Child of process 19719 has terminated 
+Command failed to execute.
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+A background process has terminated.
+Child of process 19719 has terminated 
+Child of process 19719 has terminated 
+Error : no such variable
+Child of process 19719 has terminated 
+Child of process 19719 has terminated 
+Child of process 19719 has terminated 
+Child of process 19719 has terminated 
+Command failed to execute.
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+A background process has terminated.
+Child of process 19751 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+A background process has terminated.
+Child of process 19750 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+A background process has terminated.
+Child of process 19750 has terminated 
+Child of process 19750 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+A background process has terminated.
+Child of process 19758 has terminated 
+Error : no such variable
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+A background process has terminated.
+Child of process 19708 has terminated 
+Error : no such variable
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+A background process has terminated.
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Error : no such variable
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+Child of process 19708 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 19784 has terminated 
+Child of process 19784 has terminated 
+Child of process 19784 has terminated 
+Command failed to execute.
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+A background process has terminated.
+Child of process 19791 has terminated 
+Child of process 19784 has terminated 
+Child of process 19784 has terminated 
+Child of process 19784 has terminated 
+Command failed to execute.
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+A background process has terminated.
+Child of process 19790 has terminated 
+Child of process 19784 has terminated 
+Child of process 19784 has terminated 
+Child of process 19784 has terminated 
+Command failed to execute.
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+A background process has terminated.
+Child of process 19790 has terminated 
+Child of process 19790 has terminated 
+Child of process 19784 has terminated 
+Child of process 19784 has terminated 
+Child of process 19784 has terminated 
+Command failed to execute.
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 19784 has terminated 
+Child of process 19784 has terminated 
+Child of process 19784 has terminated 
+Child of process 19784 has terminated 
+Command failed to execute.
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+A background process has terminated.
+Child of process 19804 has terminated 
+Error : no such variable
+Child of process 19784 has terminated 
+Child of process 19784 has terminated 
+Child of process 19784 has terminated 
+Child of process 19784 has terminated 
+Command failed to execute.
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+A background process has terminated.
+Child of process 19784 has terminated 
+Error : no such variable
+Child of process 19784 has terminated 
+Child of process 19784 has terminated 
+Child of process 19784 has terminated 
+Child of process 19784 has terminated 
+Command failed to execute.
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+A background process has terminated.
+Child of process 19784 has terminated 
+Child of process 19784 has terminated 
+Error : no such variable
+Child of process 19784 has terminated 
+Child of process 19784 has terminated 
+Child of process 19784 has terminated 
+Child of process 19784 has terminated 
+Command failed to execute.
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+A background process has terminated.
+Child of process 19815 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+A background process has terminated.
+Child of process 19814 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+A background process has terminated.
+Child of process 19814 has terminated 
+Child of process 19814 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+A background process has terminated.
+Child of process 19822 has terminated 
+Error : no such variable
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+A background process has terminated.
+Child of process 19774 has terminated 
+Error : no such variable
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+A background process has terminated.
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Error : no such variable
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+Child of process 19774 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 19907 has terminated 
+Child of process 19907 has terminated 
+Child of process 19907 has terminated 
+Command failed to execute.
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+A background process has terminated.
+Child of process 19914 has terminated 
+Child of process 19907 has terminated 
+Child of process 19907 has terminated 
+Child of process 19907 has terminated 
+Command failed to execute.
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+A background process has terminated.
+Child of process 19913 has terminated 
+Child of process 19907 has terminated 
+Child of process 19907 has terminated 
+Child of process 19907 has terminated 
+Command failed to execute.
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+A background process has terminated.
+Child of process 19913 has terminated 
+Child of process 19913 has terminated 
+Child of process 19907 has terminated 
+Child of process 19907 has terminated 
+Child of process 19907 has terminated 
+Command failed to execute.
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 19907 has terminated 
+Child of process 19907 has terminated 
+Child of process 19907 has terminated 
+Child of process 19907 has terminated 
+Command failed to execute.
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+A background process has terminated.
+Child of process 19928 has terminated 
+Error : no such variable
+Child of process 19907 has terminated 
+Child of process 19907 has terminated 
+Child of process 19907 has terminated 
+Child of process 19907 has terminated 
+Command failed to execute.
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+A background process has terminated.
+Child of process 19907 has terminated 
+Error : no such variable
+Child of process 19907 has terminated 
+Child of process 19907 has terminated 
+Child of process 19907 has terminated 
+Child of process 19907 has terminated 
+Command failed to execute.
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+A background process has terminated.
+Child of process 19907 has terminated 
+Child of process 19907 has terminated 
+Error : no such variable
+Child of process 19907 has terminated 
+Child of process 19907 has terminated 
+Child of process 19907 has terminated 
+Child of process 19907 has terminated 
+Command failed to execute.
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+A background process has terminated.
+Child of process 19939 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+A background process has terminated.
+Child of process 19938 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+A background process has terminated.
+Child of process 19938 has terminated 
+Child of process 19938 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+A background process has terminated.
+Child of process 19946 has terminated 
+Error : no such variable
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+A background process has terminated.
+Child of process 19897 has terminated 
+Error : no such variable
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+A background process has terminated.
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Error : no such variable
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+Child of process 19897 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 20172 has terminated 
+Child of process 20172 has terminated 
+Child of process 20172 has terminated 
+Command failed to execute.
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+A background process has terminated.
+Child of process 20178 has terminated 
+Child of process 20172 has terminated 
+Child of process 20172 has terminated 
+Child of process 20172 has terminated 
+Command failed to execute.
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+A background process has terminated.
+Child of process 20177 has terminated 
+Child of process 20172 has terminated 
+Child of process 20172 has terminated 
+Child of process 20172 has terminated 
+Command failed to execute.
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+A background process has terminated.
+Child of process 20177 has terminated 
+Child of process 20177 has terminated 
+Child of process 20172 has terminated 
+Child of process 20172 has terminated 
+Child of process 20172 has terminated 
+Command failed to execute.
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 20172 has terminated 
+Child of process 20172 has terminated 
+Child of process 20172 has terminated 
+Child of process 20172 has terminated 
+Command failed to execute.
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+A background process has terminated.
+Child of process 20197 has terminated 
+Error : no such variable
+Child of process 20172 has terminated 
+Child of process 20172 has terminated 
+Child of process 20172 has terminated 
+Child of process 20172 has terminated 
+Command failed to execute.
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+A background process has terminated.
+Child of process 20172 has terminated 
+Error : no such variable
+Child of process 20172 has terminated 
+Child of process 20172 has terminated 
+Child of process 20172 has terminated 
+Child of process 20172 has terminated 
+Command failed to execute.
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+A background process has terminated.
+Child of process 20172 has terminated 
+Child of process 20172 has terminated 
+Error : no such variable
+Child of process 20172 has terminated 
+Child of process 20172 has terminated 
+Child of process 20172 has terminated 
+Child of process 20172 has terminated 
+Command failed to execute.
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+A background process has terminated.
+Child of process 20208 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+A background process has terminated.
+Child of process 20207 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+A background process has terminated.
+Child of process 20207 has terminated 
+Child of process 20207 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+A background process has terminated.
+Child of process 20215 has terminated 
+Error : no such variable
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+A background process has terminated.
+Child of process 20161 has terminated 
+Error : no such variable
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+A background process has terminated.
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Error : no such variable
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+Child of process 20161 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 20304 has terminated 
+Child of process 20304 has terminated 
+A background process has terminated.
+Child of process 20304 has terminated 
+Child of process 20304 has terminated 
+Child of process 20304 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 20373 has terminated 
+Child of process 20373 has terminated 
+A background process has terminated.
+Child of process 20373 has terminated 
+Child of process 20373 has terminated 
+Child of process 20373 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 20497 has terminated 
+Child of process 20497 has terminated 
+A background process has terminated.
+Child of process 20497 has terminated 
+Child of process 20497 has terminated 
+Child of process 20497 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 20553 has terminated 
+Child of process 20553 has terminated 
+A background process has terminated.
+Child of process 20553 has terminated 
+Child of process 20553 has terminated 
+Child of process 20553 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 20680 has terminated 
+Child of process 20680 has terminated 
+Child of process 20677 has terminated 
+Child of process 20677 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 20677 has terminated 
+Child of process 20677 has terminated 
+Child of process 20677 has terminated 
+Child of process 20677 has terminated 
+Child of process 20677 has terminated 
+Child of process 20677 has terminated 
+Child of process 20677 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 20797 has terminated 
+Child of process 20794 has terminated 
+Child of process 20794 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 20794 has terminated 
+Child of process 20794 has terminated 
+Child of process 20794 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 20841 has terminated 
+Child of process 20841 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 20841 has terminated 
+Child of process 20841 has terminated 
+Child of process 20841 has terminated 
+Command failed to execute.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 20954 has terminated 
+Child of process 20951 has terminated 
+Child of process 20951 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 20951 has terminated 
+Child of process 20951 has terminated 
+Child of process 20951 has terminated 
+Child of process 20951 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 21043 has terminated 
+Child of process 21043 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 21043 has terminated 
+Child of process 21043 has terminated 
+Child of process 21043 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 21088 has terminated 
+Child of process 21088 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 21088 has terminated 
+Child of process 21088 has terminated 
+Child of process 21088 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 21295 has terminated 
+Child of process 21295 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 21295 has terminated 
+Child of process 21295 has terminated 
+Child of process 21295 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 21374 has terminated 
+Child of process 21374 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 21374 has terminated 
+Child of process 21374 has terminated 
+Child of process 21374 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 21515 has terminated 
+Child of process 21515 has terminated 
+Child of process 21515 has terminated 
+Child of process 21515 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 21632 has terminated 
+Child of process 21632 has terminated 
+Child of process 21632 has terminated 
+Child of process 21632 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 21705 has terminated 
+Child of process 21702 has terminated 
+Child of process 21702 has terminated 
+A background process has terminated.
+A background process has terminated.
+Command failed to execute.
+Child of process 21702 has terminated 
+Child of process 21702 has terminated 
+Command failed to execute.
+Child of process 21702 has terminated 
+Child of process 21702 has terminated 
+Child of process 21702 has terminated 
+Child of process 21702 has terminated 
+A background process has terminated.
+Command failed to execute.
+Command failed to execute.
+Child of process 21702 has terminated 
+Child of process 21702 has terminated 
+Child of process 21702 has terminated 
+A background process has terminated.
+Child of process 21702 has terminated 
+Child of process 21702 has terminated 
+Child of process 21702 has terminated 
+Child of process 21702 has terminated 
+Child of process 21702 has terminated 
+Command failed to execute.
+Child of process 21732 has terminated 
+Command failed to execute.
+Child of process 21702 has terminated 
+Child of process 21702 has terminated 
+Child of process 21702 has terminated 
+A background process has terminated.
+Child of process 21732 has terminated 
+Child of process 21732 has terminated 
+Command failed to execute.
+Child of process 21702 has terminated 
+Child of process 21702 has terminated 
+Child of process 21702 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 21746 has terminated 
+Child of process 21746 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 21746 has terminated 
+Child of process 21746 has terminated 
+Child of process 21746 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 21878 has terminated 
+Child of process 21878 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 21878 has terminated 
+Child of process 21878 has terminated 
+Child of process 21878 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 22010 has terminated 
+Child of process 22010 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 22010 has terminated 
+Child of process 22010 has terminated 
+Child of process 22010 has terminated 
+Command failed to execute.
+A background process has terminated.
+Command failed to execute.
+Child of process 22085 has terminated 
+A background process has terminated.
+Command failed to execute.
+A background process has terminated.
+Command failed to execute.
+Child of process 22116 has terminated 
+A background process has terminated.
+Command failed to execute.
+A background process has terminated.
+Child of process 22202 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 22213 has terminated 
+Child of process 22213 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 22213 has terminated 
+Child of process 22213 has terminated 
+Child of process 22213 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 22340 has terminated 
+Child of process 22340 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 22340 has terminated 
+Child of process 22340 has terminated 
+Child of process 22340 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 22434 has terminated 
+Child of process 22434 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 22434 has terminated 
+Child of process 22434 has terminated 
+Child of process 22434 has terminated 
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+A background process has terminated.
+Child of process 22500 has terminated 
+Command failed to execute.
+Command failed to execute.
+A background process has terminated.
+Child of process 22498 has terminated 
+Command failed to execute.
+A background process has terminated.
+Child of process 22492 has terminated 
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+A background process has terminated.
+Command failed to execute.
+Command failed to execute.
+Child of process 22717 has terminated 
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+A background process has terminated.
+A background process has terminated.
+Command failed to execute.
+Command failed to execute.
+Child of process 22734 has terminated 
+Child of process 22717 has terminated 
+Command failed to execute.
+Child of process 22717 has terminated 
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 23158 has terminated 
+Child of process 23158 has terminated 
+Child of process 23158 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Command failed to execute.
+Command failed to execute.
+Command failed to execute.
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+A background process has terminated.
+Child of process 23816 has terminated 
+Command failed to execute.
+Command failed to execute.
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+A background process has terminated.
+Command failed to execute.
+Child of process 23814 has terminated 
+Command failed to execute.
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+A background process has terminated.
+Child of process 23814 has terminated 
+Child of process 23814 has terminated 
+Command failed to execute.
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+A background process has terminated.
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+Child of process 23680 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 23968 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 23973 has terminated 
+Child of process 23968 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 23973 has terminated 
+Child of process 23973 has terminated 
+Child of process 23973 has terminated 
+Error : no such variable
+Child of process 23973 has terminated 
+Child of process 23968 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 23968 has terminated 
+Child of process 23968 has terminated 
+Child of process 23968 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 23968 has terminated 
+Child of process 23968 has terminated 
+Child of process 23968 has terminated 
+Child of process 23968 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 24056 has terminated 
+Error : no such variable
+Child of process 23968 has terminated 
+Child of process 23968 has terminated 
+Child of process 23968 has terminated 
+Child of process 23968 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 24056 has terminated 
+Error : no such variable
+Child of process 23968 has terminated 
+Child of process 23968 has terminated 
+Child of process 23968 has terminated 
+Child of process 23968 has terminated 
+A background process has terminated.
+Child of process 24061 has terminated 
+Error : no such variable
+Child of process 24056 has terminated 
+Error : no such variable
+Child of process 23968 has terminated 
+Child of process 23968 has terminated 
+Child of process 23968 has terminated 
+Child of process 23968 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 24110 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 24459 has terminated 
+Child of process 24459 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 24459 has terminated 
+Child of process 24459 has terminated 
+Child of process 24459 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 24548 has terminated 
+Child of process 24548 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 24548 has terminated 
+Child of process 24548 has terminated 
+Child of process 24548 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 24636 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 24707 has terminated 
+A background process has terminated.
+Child of process 24703 has terminated 
+A background process has terminated.
+Child of process 24790 has terminated 
+A background process has terminated.
+Error : no such variable
+Child of process 24790 has terminated 
+Child of process 24790 has terminated 
+A background process has terminated.
+Child of process 24790 has terminated 
+Error : no such variable
+Child of process 24790 has terminated 
+Child of process 24790 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 24807 has terminated 
+Child of process 24807 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 24807 has terminated 
+Child of process 24807 has terminated 
+Child of process 24807 has terminated 
+A background process has terminated.
+Child of process 24856 has terminated 
+A background process has terminated.
+Child of process 24850 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 25001 has terminated 
+Error : no such variable
+Child of process 25001 has terminated 
+Command failed to execute.Child of process 25001 has terminated 
+Child of process 24984 has terminated 
+Child of process 24984 has terminated 
+Child of process 24984 has terminated 
+Child of process 24984 has terminated 
+A background process has terminated.
+Child of process 24984 has terminated 
+Child of process 24984 has terminated 
+Child of process 24984 has terminated 
+Child of process 24984 has terminated 
+Child of process 24984 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 25048 has terminated 
+Child of process 25048 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 25048 has terminated 
+Child of process 25048 has terminated 
+Child of process 25048 has terminated 
+Child of process 25048 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 25145 has terminated 
+Child of process 25145 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 25145 has terminated 
+Child of process 25145 has terminated 
+Child of process 25145 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 25415 has terminated 
+Child of process 25415 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 25415 has terminated 
+Child of process 25415 has terminated 
+Child of process 25415 has terminated 
+Child of process 25415 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 25456 has terminated 
+Child of process 25453 has terminated 
+Child of process 25453 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 25453 has terminated 
+Child of process 25453 has terminated 
+Child of process 25453 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 25502 has terminated 
+Child of process 25502 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 25502 has terminated 
+Child of process 25502 has terminated 
+Child of process 25502 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 25612 has terminated 
+Child of process 25612 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 25612 has terminated 
+Child of process 25612 has terminated 
+Child of process 25612 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 25688 has terminated 
+Child of process 25688 has terminated 
+Child of process 25685 has terminated 
+Child of process 25685 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 25685 has terminated 
+Child of process 25685 has terminated 
+Child of process 25685 has terminated 
+Child of process 25685 has terminated 
+Child of process 25685 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 26680 has terminated 
+Child of process 26680 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 26680 has terminated 
+Child of process 26680 has terminated 
+Child of process 26680 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 26719 has terminated 
+Child of process 26719 has terminated 
+Child of process 26719 has terminated 
+A background process has terminated.
+Child of process 26849 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 26866 has terminated 
+Child of process 26866 has terminated 
+A background process has terminated.
+Child of process 26886 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 27056 has terminated 
+Child of process 27056 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 27224 has terminated 
+Child of process 27224 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 27271 has terminated 
+Child of process 27271 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 27917 has terminated 
+Child of process 27917 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 28065 has terminated 
+Child of process 28065 has terminated 
+A background process has terminated.
+A background process has terminated.
+Child of process 28094 has terminated 
+Child of process 28094 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 28219 has terminated 
+Child of process 28219 has terminated 
+Child of process 28219 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+Child of process 28458 has terminated 
+Child of process 28458 has terminated 
+Child of process 28458 has terminated 
+Child of process 28458 has terminated 
+Child of process 28458 has terminated 
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.
+A background process has terminated.

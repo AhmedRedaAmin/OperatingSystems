@@ -22,7 +22,7 @@
  * requires a second field to store the address of the next node.
  */
 struct lnode {
-    void *data;
+    char *data;
     char *key;
     struct lnode *next;
 };
@@ -62,7 +62,7 @@ void sllist_destroy(struct sllist *sllist);
  * Adds a node to the front of the list. If allocation fails, returns -1,
  * otherwise returns 0.
  */
-int sllist_push_front(struct sllist *sllist, char *key,void *data);
+int sllist_push_front(struct sllist *sllist, char *key,char *data);
 
 /**
  * Append node to a list.
@@ -70,7 +70,7 @@ int sllist_push_front(struct sllist *sllist, char *key,void *data);
  * Adds a node to the end of the list. If allocation fails, returns -1,
  * otherwise returns 0.
  */
-int sllist_push_back(struct sllist *sllist, char *key,void *data);
+int sllist_push_back(struct sllist *sllist, char *key,char *data);
 
 /**
  * Extract the first node.
@@ -115,7 +115,7 @@ void* sllist_read_index(struct sllist *sllist, int index);
  * Adds a node after the passed node. If allocation fails, returns -1. If the
  * node doesn't exist in the list, returns 1. Otherwise, returns 0.
  */
-int sllist_insert_after(struct sllist *sllist, int index, char *key,void *data);
+int sllist_insert_after(struct sllist *sllist, int index, char *key,char *data);
 
 /**
  * Extract a node after the node at the specified index.
