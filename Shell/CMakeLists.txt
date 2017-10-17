@@ -5,6 +5,11 @@ set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
         ${HEADER_FILES}
+        Headers/file_processing.h
+        Headers/environment.h
+        Headers/commands.h
+        Headers/command_parser.h
+        Headers/variables.h
         command_parser.c
         commands.c
         environment.c

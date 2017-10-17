@@ -88,10 +88,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/Headers/command_parser.h">
+			<Option target="Shell"/>
+		</Unit>
+		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/Headers/commands.h">
+			<Option target="Shell"/>
+		</Unit>
+		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/Headers/environment.h">
+			<Option target="Shell"/>
+		</Unit>
+		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/Headers/file_processing.h">
+			<Option target="Shell"/>
+		</Unit>
 		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/Headers/log_handle.h">
 			<Option target="Shell"/>
 		</Unit>
 		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/Headers/sllist.h">
+			<Option target="Shell"/>
+		</Unit>
+		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/Headers/variables.h">
 			<Option target="Shell"/>
 		</Unit>
 		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/command_parser.c">
