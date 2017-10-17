@@ -4,7 +4,6 @@ project(Shell)
 set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
-        ${HEADER_FILES}
         Headers/file_processing.h
         Headers/environment.h
         Headers/commands.h
@@ -15,10 +14,13 @@ set(SOURCE_FILES
         environment.c
         file_processing.c
         linux_shell.c
-        variables.c Headers/sllist.h sllist.c Headers/log_handle.h log_handle.c)
+        variables.c
+        Headers/sllist.h
+        sllist.c
+        Headers/log_handle.h
+        log_handle.c)
 
 include_directories(./Headers ./Resources)
-set(HEADER_FILES Headers/*)
 SET(CMAKE_BUILD_TYPE Debug)
 
 add_executable(Shell ${SOURCE_FILES})
