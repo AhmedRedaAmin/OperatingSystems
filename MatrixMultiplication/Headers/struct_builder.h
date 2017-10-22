@@ -13,7 +13,17 @@ struct thread_data{
     int rowA,rowB,colA,colB;
     int i,j;
 };
-
+/**A way to build the struct data_thread, this is a builder function in OOP terms.
+ *
+ * @param matA
+ * @param matB
+ * @param matC
+ * @param rowA
+ * @param colA
+ * @param rowB
+ * @param colB
+ * @return
+ */
 struct thread_data* build_struct( double** matA, double** matB , double**matC,int rowA ,int colA,int rowB,
                                  int colB);
 

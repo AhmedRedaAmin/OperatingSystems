@@ -28,10 +28,8 @@ void write_matrix_to_file(char* path, double **matrix, int rows, int cols) {
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
             fprintf(file, "%lf\t", matrix[i][j]);
-            printf("%lf\t", matrix[i][j]);
         }
         fprintf(file, "\n");
-        printf("\n");
     }
     fclose(file);
 }

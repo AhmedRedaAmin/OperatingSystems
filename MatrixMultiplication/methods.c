@@ -7,19 +7,10 @@
 #include "struct_builder.h"
 #include "methods.h"
 
-void * print_hello_world(void* tid)
-{
-//print identification of thread and exit
-    printf("Thread : Hello World \n");
-    pthread_exit(NULL);
-}
-
-
 
 
 void* cell_multiplyer( void* data){
 struct thread_data* All = (struct thread_data* ) data;
-    printf("hi there \n");
     double** A = All->mat_A;
     double** B = All->mat_B;
     double** C = All->mat_C;
@@ -31,7 +22,8 @@ struct thread_data* All = (struct thread_data* ) data;
         sum+= A[i][z] * B[z][j];
     }
     C[i][j] = sum;
-
+    free(data);
+    //printf("The sum is %lf for MY Thread \n",sum);
     pthread_exit(NULL);
 
 }
@@ -67,24 +59,32 @@ void element_thread(struct thread_data* x){
 
     for(int z = 0; z < x-> rowA; z++){
         for(int m =0 ; m < x-> colB ; m++) {
-            x->i =z;
-            x->j =m;
-            error = pthread_create(&threads[z][m], NULL , cell_multiplyer ,(void*)x);
+            struct thread_data* temp = malloc(sizeof(struct thread_data));
+            temp->mat_A = x->mat_A;
+            temp->mat_B = x->mat_B;
+            temp->mat_C = x->mat_C;
+            temp->i = z;
+            temp->j = m;
+            temp->rowA = x->rowA;
+            temp->rowB = x->rowB;
+            temp->colA = x->colA;
+            temp->colB = x->colB;
+            error = pthread_create(&threads[z][m], NULL , cell_multiplyer ,(void*)temp);
             if (error) {
                 write_to_log_files("Error, thread failed to create");
                 exit(-1);
             }
         }
     }
-    printf("Number of threads created = %d \n", x->rowA * x->colB);
 
     for(int z = 0; z < x->rowA ; z++){
         for(int m =0 ; m < x->colB ; m++) {
-        pthread_join(threads[z][m], NULL);
-        printf("Main: completed join with thread %d %d \n",z,m);
+            pthread_join(threads[z][m], NULL);
+            printf("Main: completed join with thread %d %d \n",z,m);
         }
     }
 
+    printf("Number of threads created = %d \n", x->rowA * x->colB);
 
     gettimeofday(&stop, NULL);
     printf("Seconds taken %lu\n", stop.tv_sec - start.tv_sec);
@@ -103,9 +103,17 @@ void row_thread(struct thread_data* x){
 
     for(int z = 0; z < x->rowA; z++){
 
-            x->i =z;
-            x->j =0;
-            error = pthread_create(&threads[z], NULL, row_multiplyer,(void*)x);
+        struct thread_data* temp = malloc(sizeof(struct thread_data));
+        temp->mat_A = x->mat_A;
+        temp->mat_B = x->mat_B;
+        temp->mat_C = x->mat_C;
+        temp->i = z;
+        temp->j = 0;
+        temp->rowA = x->rowA;
+        temp->rowB = x->rowB;
+        temp->colA = x->colA;
+        temp->colB = x->colB;
+            error = pthread_create(&threads[z], NULL, row_multiplyer,(void*)temp);
             if (error) {
                 write_to_log_files("Error, thread failed to create");
                 exit(-1);
