@@ -11,7 +11,7 @@
 
 char ** split_command(char* command )
 {
-    if(strlen(command) > MAN_LENGTH){
+    if(strlen(command) > MAX_LENGTH){
         handle_shell_log("Command exceeds maximum length \n");
         return 0;
     }
@@ -176,9 +176,9 @@ int check_background(char ** arguments){
     //the command can be classified as 3 things , command , execute path or variable
     //assignment .
 
-int identify_command(char** arguments){
+enum SHELL_MODE identify_command(char** arguments){
     char* command;
-    int status;
+    enum SHELL_MODE status;
     command = arguments[0];
     int i = 0;
     while(command[i]!= '\0'){

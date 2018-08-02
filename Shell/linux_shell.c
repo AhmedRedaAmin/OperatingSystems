@@ -1,11 +1,11 @@
 #include <unistd.h>
-#include <stdio.h>
 #include <sys/wait.h>
 #include <stdlib.h>
 #include <variables.h>
 #include <command_parser.h>
 #include <memory.h>
 #include <wchar.h>
+#include "history_handle.h"
 #include "environment.h"
 #include "file_processing.h"
 #include "log_handle.h"
@@ -14,7 +14,7 @@ typedef enum{ false = 0 , true = 1 } bool ;
 
 void kill_process(int signal);
 void start(bool read_from_file);
-void shell_loop(bool input_from_file,FILE* file_p);
+void shell_loop(bool input_from_file,FILE* file_pointer);
 char* path;
 static pid_t  active_process;
 
@@ -43,8 +43,8 @@ int main(int argc, char *argv[])
 
 void start(bool read_from_file)
 {   //start from current user home
-    char* x = getenv("HOME");
-    chdir(x);
+    char* home_directory = getenv("HOME");
+    chdir(home_directory);
 
 	if(read_from_file){
 		FILE* fp = open_commands_batch_file(path);
@@ -68,6 +68,8 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
     FILE* Historyfile = open_history_file(history,"a");
     //preparing log files
     prepare_logs();
+
+
     while(true){
         char* line;
         if(from_file){

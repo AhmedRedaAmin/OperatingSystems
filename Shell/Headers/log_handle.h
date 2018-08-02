@@ -5,10 +5,10 @@
  * other functions in the file.
  */
 void prepare_logs();
+
 /**
  * responsible for logging custom log messages to the log file and stdout.
  */
-
 void handle_shell_log(char *message);
 
 /**

@@ -1,11 +1,8 @@
 #ifndef COMMAND_PARSER_H   /* Include guard */
 #define COMMAND_PARSER_H
 
-static const int MAN_LENGTH = 512; //mandatory length
-static const int EXECUTE = 1;
-static const int COMMAND = 2;
-static const int VARIABLE = 3; //operation modes
-
+static const int MAX_LENGTH = 512; //maximum input length
+enum SHELL_MODE {EXECUTE , COMMAND , VARIABLE }; //operation modes
 
 
 
@@ -32,7 +29,7 @@ char** variable_processing(char** arguments);
  * @param Arguments
  * @return
  */
-int identify_command(char** Arguments);
+enum SHELL_MODE identify_command(char** Arguments);
 /** this function executes the commands
  *
  * @param Arguments
