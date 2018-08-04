@@ -4,5 +4,4 @@
 void setup_environment( void )
 {
     setup_variables_table();
-	// you should implement this function
 }

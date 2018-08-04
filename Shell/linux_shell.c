@@ -11,12 +11,15 @@
 #include "log_handle.h"
 
 typedef enum{ false = 0 , true = 1 } bool ;
+enum SPECIAL_CASE { Ignore , Terminate };
 
 void kill_process(int signal);
+enum SPECIAL_CASE check_special_cases(char **context);
 void start(bool read_from_file);
 void shell_loop(bool input_from_file,FILE* file_pointer);
 char* path;
 static pid_t  active_process;
+bool from_file = false;
 
 
 int main(int argc, char *argv[])
@@ -58,14 +61,15 @@ void start(bool read_from_file)
 
 void shell_loop(bool input_from_file,FILE* file_pointer)
 {   FILE* file_p = file_pointer;
-    bool from_file = input_from_file;
+    from_file = input_from_file;
     bool background;
     //opening history file
-    char* temp = getenv("PWD");
-    char copy[strlen(temp)+30];
-    strcpy(copy , temp);
-    char* history = strcat(copy ,"/Resources/History.txt");
-    FILE* Historyfile = open_history_file(history,"a");
+    prepare_history_file();
+//    char* temp = getenv("PWD");
+//    char copy[strlen(temp)+30];
+//    strcpy(copy , temp);
+//    char* history = strcat(copy ,"/Resources/History.txt");
+//    FILE* Historyfile = open_history_file(history,"a");
     //preparing log files
     prepare_logs();
 
@@ -90,7 +94,7 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
             if(line == NULL){ break ;}
 		}
             //every line should be admitted to history file
-        write_to_history_file(Historyfile,line);
+        write_to_history(line);
         if (strlen(line) > 512 ){
             handle_shell_log("Command exceeds maximum limit \n");
             continue;
@@ -102,25 +106,20 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
         free(line);
         line = temp ;
         char ** context;
-        context = split_command(line); //all special cases need to abort without further computations
-        if(context[0] != NULL && !strcmp(context[0], "history")){
-            close_history_file(Historyfile);
-            Historyfile = open_history_file(history,"r");
-            display_history_file(Historyfile);
-            close_history_file(Historyfile);
-            Historyfile = open_history_file(history,"a");
+        context = split_command(line);
+        //all special cases need to abort without further computations
+        enum SPECIAL_CASE current_case = check_special_cases(context);
+        if(current_case == Ignore){
             continue;
-        } //special cases are spread out like that for readability instead of a long AND-OR
-        if(context[0] != NULL && !strcmp(context[0],"ec") && !strcmp(context[1] , "")){ continue;}
-        if(context[0] != NULL && !strcmp(context[0], " ")|| context[0] == NULL){ continue;}
-        if(context[0][0] == '#'){ continue;}
-        if(context[0] != NULL && !strcmp(context[0],"exit") && from_file == false){ break;}
-        if(context[0] != NULL && !strcmp(context[0],"exit")){ from_file = false ; continue;}
+        } else if (current_case == Terminate){
+            break;
+        }
+
         int nature_of_command = identify_command(context);
         context = variable_processing(context);
         if(context[0] != NULL && !strcmp(context[0], "cd")) {
             exec_command(context,nature_of_command);
-            continue;}// end of special cases
+            continue;}// cd case , execution without spawning a new process
 
         //execution starts here
         int wStatus;
@@ -162,7 +161,7 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
 
 
 	}
-    close_history_file(Historyfile);
+    close_history();
     free_variables_table();
 }
     //SIGINT handler
@@ -172,4 +171,26 @@ void kill_process(int signal){
         fputs(message,stdout);
         kill(active_process, SIGKILL);
     }
+}
+
+enum SPECIAL_CASE check_special_cases(char **context) {
+
+    if(context[0] != NULL){
+
+        if(context[0][0] == '#'){ return Ignore;}
+        if(!strcmp(context[0], "history")){
+            display_history();
+            return Ignore;
+        } //special cases are spread out like that for readability instead of a long AND-OR
+        if(!strcmp(context[0],"ec") && !strcmp(context[1] , "")){ return Ignore;}
+        if(!strcmp(context[0], " ")|| context[0] == NULL){ return Ignore;}
+        if(!strcmp(context[0],"exit")){
+
+            if(from_file == false){ return Terminate;}
+            else {from_file = false ; return Ignore;}
+
+        }
+
+    }
+
 }

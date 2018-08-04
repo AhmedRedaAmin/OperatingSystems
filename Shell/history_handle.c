@@ -7,13 +7,35 @@
 #include "history_handle.h"
 
 void prepare_history_file(){
-    char* temp = getenv("PWD");
-    char copy[strlen(temp)+30];
-    strcpy(copy , temp);
-    char* history = strcat(copy ,"/Resources/History.txt");
-    history_file = open_history_file(history,"a");
+    char* current_directory = getenv("PWD");
+    char copy[strlen(current_directory)+30];
+    strcpy(copy , current_directory);
+    history_file_path = strcat(copy ,"/Resources/History.txt");
+    history_file = open_history_file(history_file_path,"a");
+    current_mode ='a';
 }
 
-void write_to_history(char* line);
+void write_to_history(char* line){
+    if(current_mode != 'a'){
+        close_history();
+        history_file = open_history_file(history_file_path,"a");
+        current_mode = 'a';
+    }
 
-void display_history();
+    write_to_history_file(history_file,line);
+}
+
+void display_history(){
+
+    if(current_mode != 'r'){
+        close_history();
+        history_file = open_history_file(history_file_path, "r");
+        current_mode = 'r';
+    }
+
+    display_history_file(history_file);
+}
+
+void close_history(){
+    close_history_file(history_file);
+}

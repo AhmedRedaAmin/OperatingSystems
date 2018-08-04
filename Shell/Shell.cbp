@@ -100,6 +100,9 @@
 		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/Headers/file_processing.h">
 			<Option target="Shell"/>
 		</Unit>
+		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/Headers/history_handle.h">
+			<Option target="Shell"/>
+		</Unit>
 		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/Headers/log_handle.h">
 			<Option target="Shell"/>
 		</Unit>
@@ -119,6 +122,9 @@
 			<Option target="Shell"/>
 		</Unit>
 		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/file_processing.c">
+			<Option target="Shell"/>
+		</Unit>
+		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/history_handle.c">
 			<Option target="Shell"/>
 		</Unit>
 		<Unit filename="/media/ahmed/GB107/JETBrainsFullStudentPack/Workspaces/CLionProfWS/OperatingSystems/Shell/linux_shell.c">
