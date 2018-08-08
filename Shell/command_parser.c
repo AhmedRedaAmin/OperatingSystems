@@ -161,15 +161,25 @@ char** variable_processing(char** arguments){
 }
 
 int check_background(char ** arguments){
-    char* ampersand;
+    char* last_string;
+    char ampersand;
     int status;
     int i = 0;
     while(arguments[i] != NULL){
         i++;
     }
     i--;
-    ampersand = arguments[i];
-    status = strcmp("&",ampersand);
+    last_string = arguments[i];
+    i = 0;
+    while(last_string[i] != '\0'){
+        i++;
+    }
+    i--;
+    ampersand = last_string[i];
+    status = ( '&' == ampersand );
+    if(status){
+        last_string [i] = '\0';
+    }
     return status;
 }
 

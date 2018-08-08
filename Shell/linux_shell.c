@@ -27,7 +27,6 @@ int main(int argc, char *argv[])
 {
     //setting up environment + catching SIGCHLD and SIGINIT from the user
     setup_environment();
-    signal(SIGCHLD, handle_signal_shell_log);
     signal(SIGINT, kill_process);
     // any other early configuration should be here
 
@@ -108,7 +107,8 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
         line = temp ;
         char ** context;
         context = split_command(line);
-        //all special cases need to abort without further computations
+        //all special cases whether it is supposed to be ignored or supposed to terminate the program
+                // need to be checked before further computations
         enum SPECIAL_CASE current_case = check_special_cases(context);
         if(current_case == Ignore){
             continue;
@@ -124,7 +124,7 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
 
         //execution starts here
         int wStatus;
-        background = check_background(context) == 0 ? true : false;
+        background = check_background(context)? true : false;
 
 
 
@@ -135,6 +135,7 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
             continue;
         } else if(pID == 0) {
             exec_command(context,nature_of_command);
+            _exit(0);
         } else {
             active_process = pID;
             //handling background and foreground ops , foreground requires parent to wait
@@ -145,15 +146,21 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
                 }while( !WIFEXITED(wStatus) && !WIFSIGNALED(wStatus) );
 
                 termination_notice(wStatus);
-
                 //handle Signal
             } else {
                 signal(SIGCHLD, termination_notice);
             }
         }
 
-
+        //free memory
+        int m = 0;
+        while(context[m] != NULL){
+            free(context[m]);
+            m++;
+        }
 	}
+
+	//free memory
     close_history();
     free_variables_table();
 }
