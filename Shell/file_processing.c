@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <log_handle.h>
 #include <stdint.h>
 #include <stdlib.h>

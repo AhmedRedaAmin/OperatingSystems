@@ -6,6 +6,8 @@
  * which proved useful further down the road.
 */
 
+#include <stdio.h>
+
 /**
 	history file basic functions' prototypes
 */

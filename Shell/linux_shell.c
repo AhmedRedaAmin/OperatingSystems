@@ -13,6 +13,7 @@
 typedef enum{ false = 0 , true = 1 } bool ;
 enum SPECIAL_CASE { Ignore , Terminate };
 
+void termination_notice(int signum);
 void kill_process(int signal);
 enum SPECIAL_CASE check_special_cases(char **context);
 void start(bool read_from_file);
@@ -142,20 +143,12 @@ void shell_loop(bool input_from_file,FILE* file_pointer)
                 do{
                     waitpid(pID, &wStatus, WUNTRACED);
                 }while( !WIFEXITED(wStatus) && !WIFSIGNALED(wStatus) );
-                char* x = "Child of process ";
-                int y = getpid();
-                char* z = " has terminated \n";
-                char * COPY = malloc(strlen(x)+strlen(z)+12);
-                memset(COPY,0,strlen(x)+strlen(z)+12);
-                strcat(COPY,x);
-                char* buffer = malloc(11);
-                snprintf(buffer,sizeof(buffer),"%d",y);
-                strcat(COPY,buffer);
-                strcat(COPY,z);
-                handle_shell_log(COPY);
-                free(COPY);
-                free(buffer);
+
+                termination_notice(wStatus);
+
                 //handle Signal
+            } else {
+                signal(SIGCHLD, termination_notice);
             }
         }
 
@@ -192,5 +185,24 @@ enum SPECIAL_CASE check_special_cases(char **context) {
         }
 
     }
+
+}
+
+void termination_notice(int signum){
+
+    char* x = "Child of process ";
+    int y = getpid();
+    char* z = " has terminated \n";
+    char * COPY = malloc(strlen(x)+strlen(z)+12);
+    memset(COPY,0,strlen(x)+strlen(z)+12);
+    strcat(COPY,x);
+    char* buffer = malloc(11);
+    snprintf(buffer,sizeof(buffer),"%d",y);
+    strcat(COPY,buffer);
+    strcat(COPY,z);
+    handle_shell_log(COPY);
+    free(COPY);
+    free(buffer);
+    //handle Signal
 
 }
